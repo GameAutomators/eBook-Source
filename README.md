@@ -1,4 +1,4 @@
-# Game Automators
+# Building Mobile Game Solvers
 
 This is the Game Automators, We look at automating games using electronics and image processing.
 
