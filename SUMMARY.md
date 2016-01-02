@@ -54,4 +54,4 @@
 
 * [Acknowledgements](Acknowledgements/README.md)
     * [Contributors](Acknowledgements/contributors.md)
-
+    * [Contributing](contributing.md)
