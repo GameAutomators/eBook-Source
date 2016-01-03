@@ -49,7 +49,7 @@ Arduino also has an open-source software component which is similar to C++. The 
 ***loop()***: a function called repeatedly until the board powers off.
 
 Sample program: (for blinking an LED)
-```
+```C
 #define LED_PIN 13
 
 void setup() {
