@@ -1,19 +1,13 @@
-# Introduction
+# Preface
 
-In this first chapter, we'll learn the basics of programming and the Javascript language.
+A survey suggests that 50% of the general public play video games, and 10% consider them as serious gamers. The main motivation that drives these people is to make a high score.
 
-Programming means writing code. A book is made up of chapters, paragraphs, sentences, phrases, words and finally punctuation and letters, likewise a program can be broken down into smaller and smaller components. For now, the most important is a statement. A statement is analogous to a sentence in a book. On its own, it has structure and purpose, but without the context of the other statements around it, it isn't that meaningful.
+But what if we can apply the concepts that, we as engineers know, to build robots and automated algorithms to solve these mobile games? It will motivate more students to work on innovative ways to solve the games rather than spend hours trying to make high scores.
 
-A statement is more casually (and commonly) known as a *line of code*. That's because statements tend to be written on individual lines. As such, programs are read from top to bottom, left to right. You might be wondering what code (also called source code) is. That happens to be a broad term which can refer to the whole of the program or the smallest part. Therefore, a line of code is simply a line of your program.
+I’m Surya, an alumni of NIT Warangal. I started working on such robots and algorithms during my final year at college. They could solve mobile games using concepts of electronics, image processing and machine learning. I decided it was time for me to take the work to the next level. With the help of The Lakshya Foundation and Innovation Garage, I teamed up with fifteen students from NIT Warangal during the winter vacation in December 2015. 
 
-Here is a simple example:
+Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for five different games which beat human-level-performance. 
 
-```javascript
-var hello = "Hello";
-var world = "World";
+We open-sourced all of the projects so that people around the world can replicate and build upon it. We also made video demonstrations for all projects and uploaded them on YouTube. Apart from giving students and enthusiasts a new dimension to learn, this also contributes in building the brand of NIT Warangal.
 
-// Message equals "Hello World"
-var message = hello + " " + world;
-```
-
-This code can be executed by another program called an *interpreter* that will read the code, and execute all the statements in the right order.
+This book “Building Mobile Game Solvers” is a result of our work during the internship. I hope you enjoy the book.
