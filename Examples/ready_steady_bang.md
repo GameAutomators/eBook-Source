@@ -4,8 +4,8 @@ The game has two players, one is system automated and the other is player contro
 
 **Playstore Link:**  [Ready Steady Bang](https://play.google.com/store/apps/details?id=com.noodlecake.rsb&hl=en)
 
-![PlayStoreImage](/Images/BangPlaystore.png) 
-![Game Image]()
+![PlayStoreImage](Images/BangPlaystore.png) 
+![Game Image](Images/BangGameplay.png)
 
 ##### Difficulty Level
 Moderate
@@ -23,7 +23,7 @@ As soon as the ‘BANG’ appears, the voltage output from the pin where the LDR is 
 * Computer to program Arduino
  
 ##### Circuit diagram using fritzing:
-![image]()
+![image](Images/BangCircuit.png)
 
 ##### Tutorial
 
