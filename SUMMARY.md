@@ -1,12 +1,6 @@
 # Summary
 
 * [Preface](Preface/README.md)
-    * [Getting Started](Preface/getting_started.md)
-    * [Ideation](Preface/ideation.md)
-    * [Winter Internship](Preface/winter_internship.md)
-        * [Mentors](Preface/WinterInternship/mentors.md)
-        * [Students](Preface/WinterInternship/students.md)
-        * [Innovation Garage](Preface/WinterInternship/ig.md)
 
 * [Chapter 1 - Introduction](Introduction/README.md)
     * [Importance of the book](Introduction/importance.md)
