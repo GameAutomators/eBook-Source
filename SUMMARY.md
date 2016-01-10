@@ -23,12 +23,9 @@
         * [Debugging](ImageProcessing/Matlab/debugging.md)
 
 * [Chapter 4 - Different Methods](Methods/README.md)
-    * [Using electronic Circuits](Methods/circuits.md)
-    * [Using ADB and IP](Methods/using.md)
-        * [Setup](Methods/setup.md)
-    * [Advantages](Methods/advantages.md)
-    * [Disadvantages](Methods/disadvantages.md)
-    * [Examples](Methods/examples.md)
+    * [Using electronic Circuits](Methods/electronic.md)
+    * [Using ADB and IP](Methods/adb.md)
+    * [Using electronic circuits and IP](Methods/circuit.md)
 
 * [Chapter 5 - Specific Examples](Examples/README.md)
     * [Using Electronic Circuits](Examples/circuits.md)
