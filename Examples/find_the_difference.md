@@ -5,7 +5,9 @@
 
 **Playstore link**:[ Find the  Differences](https://play.google.com/store/apps/details?id=com.ivanovandapps.ftdiaa3&hl=en)
 
-![playstoreFTD]() ![game]()
+![playstoreFTD](/Images/ftdps.png) 
+
+![game](/Images/ftdim.png)
 
 ### Difficulty Level
 ###### Difficult
@@ -19,7 +21,8 @@
 * USB data transfer cable
 
 ### Block diagram
-![blockdiagram]()
+
+![blockdiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
 ##### Step 1: Using ADB Tool to capture screenshot

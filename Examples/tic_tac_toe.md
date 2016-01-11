@@ -6,6 +6,10 @@ This is a two-player game. The player and the system get alternative chances to 
 
 Playstore Link: [Tic Tac Toe](https://play.google.com/store/apps/details?id=com.pinkpointer.tictactoe&hl=en)
 
+![Playstore](/Images/tttps.png)
+
+![Image](/Images/tttim.png)
+
 #### Difficulty level
 Moderate.
 
@@ -20,6 +24,7 @@ The player starts at a point. The system’s move is identified using Image proc
 
 #### Block Diagram
 
+![BlockDiagram](/Images/BlockDiagram.png)
 
 #### Tutorial
 ##### Step 1: Using ADB Tool to capture screenshot
