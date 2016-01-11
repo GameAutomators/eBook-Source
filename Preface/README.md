@@ -10,4 +10,4 @@ Most students had prior experience with electronic circuits, but very few knew i
 
 We open-sourced all of the projects so that people around the world can replicate and build upon it. We also made video demonstrations for all projects and uploaded them on YouTube. Apart from giving students and enthusiasts a new dimension to learn, this also contributes in building the brand of NIT Warangal.
 
-This book “Building Mobile Game Solvers” is a result of our work during the internship. I hope you enjoy the book.
+This book "Building Mobile Game Solvers" is a result of our work during the internship. I hope you enjoy the book.
