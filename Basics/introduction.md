@@ -9,7 +9,7 @@ If you are a beginner, this video series on YouTube is a great way to start- “
 
 ### Voltage Divider Circuit
 
-![Voltage Divider Circuit](/Images/CapactiveTouchScreen.png)
+![Voltage Divider Circuit](/Images/VoltageDividerCircuit.png)
 
 A voltage divider circuit is commonly used in many electronic circuits for a wide range of applications including adjusting level of signal, measurement of voltages, etc. It is used in multimeter and wheatstone bridge. It produces an output voltage which is a fraction of the input voltage. The value of the output voltage depends on the values of the resistors used.
 
