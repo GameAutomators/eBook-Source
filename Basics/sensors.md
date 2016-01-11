@@ -20,7 +20,7 @@ A LDR can be used to detect black and white regions on the screen.For example,If
 ##### Source code
 ###### **Declarations**
 Here we are going to declare the pins we are going to use
-```
+```C
 // These constants won't change.  They're used to give names
 // to the pins used:
 const int analogInPin = A0;  // Analog input pin that the potentiometer is attached to
@@ -30,7 +30,7 @@ int sensorValue = 0;        // value read from the pot
 int outputValue = 0;        // value output to the PWM (analog out)
 ```
 ###### ***Setup***
-```
+```C
 void setup() 
 {
   // initialize serial communications at 9600 bps:
@@ -38,7 +38,7 @@ void setup()
 }
 ```
 ###### ***Loop***
-```
+```C
 void loop()
  {
   // read the analog in value:
@@ -90,7 +90,7 @@ Open up the Arduino environment, and create a new sketch by clicking File - New.
 
 The beginning of a sketch is where we make our declarations, so type the following code into the environment window.
 
-```
+```C
 // Define colour sensor LED pins
 int ledArray[] = {2,3,4};
         // boolean to know if the balance has been set
@@ -119,7 +119,7 @@ We go on to create some place holders for the colour values, and some arrays to 
 The next step in creating an Arduino sketch is to write the setup function. Setup is run when the Arduino first boots up, so this is where we tell the Arduino what how we want to use the pins and setup other features that we may need such as serial communication.
 
 Type the following below the code that you just entered.
-```
+```C
  void setup()
           {
   //setup the outputs for the colour sensor
@@ -139,7 +139,7 @@ The next part is to tell the Arduino that we intend to make use of the serial po
 The loop function is typically where the magic happens in an Arduino. It is the code that is run over and over again once the Arduino is booted and setup has been passed through. Put the next bit of code under your setup function.
 
 
-```
+```C
 void loop()
 {
            checkBalance();
@@ -147,14 +147,14 @@ void loop()
 	printColour();
 	}
  
- ```
+```
  Okay at first glance it looks like there really is not much there. But these are each calls to private functions. For some projects I find this type of approach works well. It makes it easier to read (I think) as each block of code is separated with a meaningful name, and we can see what the sketch is going to do at a glance.
 
 First it will check the balance, then it will check the colour, and then it will print the colour to the serial port so we can see the values that it read.
 
 Let`s explore the first private function, checkBalance, and add it to our code. Type the following below your loop function.
 
-```
+```C
 void checkBalance()
 {
   //check if the balance has been set, if not, set it
@@ -166,7 +166,7 @@ void checkBalance()
  As you can see, if the balanceSet value (a boolean value) is set to false, then it makes a call to a secondary function called setBalance, where we set the white and black balancing readings. This will only happen when you boot up the arduino the one time.
  
 
-```
+```C
 void setBalance()
 {
   //set white balance
@@ -204,7 +204,7 @@ void setBalance()
 If you noticed, we made yet another call to a function getReading.  We will add that right after we put in the checkColour function.
 
 Once our balancing numbers have been set, we go on to finally read the colour. The function is basically the same as setBalance,, with the addition of the math that balances the reading. Let’s add it now.
-```
+```C
 void checkColour()
 {
 	for(int i = 0;i<=2;i++){
@@ -224,7 +224,7 @@ void checkColour()
 ```
 We will also need to add our function getReading, otherwise our sketch won`t have real values. This function just allows us to take a few readings and average them out. This allows for a slightly smoother reading.
 
-```
+```C
 void getReading(int times){
   int reading;
   int tally=0;
@@ -242,7 +242,7 @@ avgRead = (tally)/times;
 ```
 Now we have a colour read into our colour holding array, all we need to do now is output it to the screen. Remember that we setup serial communication back in the setup function, all we have to do now is use the serial port to send out our data. The Arduino environment includes a serial monitor, which will allow you to see the data as it is passed from the Arduino. So let`s add the last function to the sketch.
 
-```
+```C
 //prints the colour in the colour array, in the next step, we will send this to processing to see how good the sensor works.
 void printColour(){
 Serial.print("R = ");
