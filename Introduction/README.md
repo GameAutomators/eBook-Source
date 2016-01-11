@@ -1,4 +1,4 @@
-# Preface
+# Introduction
 
 A survey suggests that 50% of the general public play video games, and 10% consider them as serious gamers. The main motivation that drives these people is to make a high score.
 
