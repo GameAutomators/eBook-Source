@@ -1,17 +1,17 @@
 # Summary
 
-* [Preface](Preface/README.md)
+# [Preface](Preface/README.md)
 
-* [Chapter 1 - Introduction](Introduction/README.md)
+* [Introduction](Introduction/README.md)
     * [Overview](Introduction/overview.md)
 
-* [Chapter 2 - Basics of Electronics](Basics/README.md)
+* [Electronics](Basics/README.md)
     * [Introduction to Electronics](Basics/introduction.md)
     * [Introduction to Arduino](Basics/arduino.md)
     * [Sensors](Basics/sensors.md)
     * [Simulation](Basics/simulation.md)
 
-* [Chapter 3 - Basics of Image Processing](ImageProcessing/README.md)
+* [Image Processing](ImageProcessing/README.md)
     * [What is an Image](ImageProcessing/image.md)
     * [Basics of Color](ImageProcessing/color.md)
     * [IP in Matlab](ImageProcessing/matlab.md)
@@ -20,12 +20,12 @@
         * [Analysis](ImageProcessing/Matlab/analysis.md)
         * [Debugging](ImageProcessing/Matlab/debugging.md)
 
-* [Chapter 4 - Different Methods](Methods/README.md)
+* [Different Methods of Automating](Methods/README.md)
     * [Using electronic Circuits](Methods/electronic.md)
     * [Using ADB and IP](Methods/adb.md)
     * [Using electronic circuits and IP](Methods/circuit.md)
 
-* [Chapter 5 - Specific Examples](Examples/README.md)
+* [Specific Examples](Examples/README.md)
     * [Using Electronic Circuits](Examples/circuits.md)
         * [Ready Steady Bang](Examples/ready_steady_bang.md)
         * [Piano Tiles](Examples/piano_tiles.md)
