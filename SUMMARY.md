@@ -3,8 +3,6 @@
 * [Preface](Preface/README.md)
 
 * [Chapter 1 - Introduction](Introduction/README.md)
-    * [Importance of the book](Introduction/importance.md)
-    * [Why are we writing the book](Introduction/why.md)
     * [Overview](Introduction/overview.md)
 
 * [Chapter 2 - Basics of Electronics](Basics/README.md)
@@ -31,17 +29,13 @@
     * [Using Electronic Circuits](Examples/circuits.md)
         * [Ready Steady Bang](Examples/ready_steady_bang.md)
         * [Piano Tiles](Examples/piano_tiles.md)
-        * [Lumber Jack](Examples/lumber_jack.md)
     * [Using ADB and IP](Examples/adb.md)
         * [3D Bowling](Examples/3d_bowling.md)
         * [Playing the song](Examples/playing_the_song.md)
         * [Tic Tac Toe](Examples/tic_tac_toe.md)
         * [Find The Difference](Examples/find_the_difference.md)
-        * [Move](Examples/move.md)
-        * [Spring Ninja](Examples/spring_ninja.md)
     * [Using Electronic Circuits & IP](Examples/circuit_ip.md)
         * [Stick Hero](Examples/stick_hero.md)
-        * [Flappy Bird](Examples/flappy_bird.md)
 
 * [Acknowledgements](Acknowledgements/README.md)
     * [Contributors](Acknowledgements/contributors.md)
