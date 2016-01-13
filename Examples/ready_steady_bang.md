@@ -4,8 +4,8 @@ The game has two players, one is system automated and the other is player contro
 
 **Playstore Link:**  [Ready Steady Bang](https://play.google.com/store/apps/details?id=com.noodlecake.rsb&hl=en)
 
-![PlayStoreImage | width=250px](/Images/BangPlaystore.png) 
-![Game Image | width=250px](/Images/BangGameplay.png)
+![PlayStoreImage](/Images/BangPlaystore.png = 250x) 
+![Game Image](/Images/BangGameplay.png = 250x)
 
 ##### Difficulty Level
 Moderate
