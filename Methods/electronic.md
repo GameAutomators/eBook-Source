@@ -4,8 +4,9 @@ This is a way to automate the mobile game without using any internal functions o
 
 ##### Approach
 
-![image9](/Images/method-1.png)
-Fig. The image depicts the block diagram for a typical circuit that can solve a game
+![image9](/Images/methods-1.png)
+
+*Fig. The image depicts the block diagram for a typical circuit that can solve a game*
 
 ##### Touch Simulation
 For this we have to understand how capacitive touch screens work. The electrodes apply a low voltage to the conductive layer creating a uniform electrostatic field. When a finger hits the screen a tiny electrical charge is transferred to the finger to complete the circuit creating a voltage drop at that point on the screen. The location of this voltage drop is recorded by the controller and this is how a capacitive touch screen works.

@@ -3,10 +3,12 @@
 Android Debug Bridge (adb) is a tool that allows the computer to communicate with   attached devices, capturing screenshots of the mobile screen, simulating virtual touches and swipes, etc., The latter two are the things that we will be using over and over again in the following tutorials that we use to solve various games.
 ##### Approach
 
-![image1](/Images/method-2.png)
-Fig: the image depicts the workflow of algorithm for solving the games
+![image1](/Images/methods-2.png)
+
+*Fig: the image depicts the workflow of algorithm for solving the games*
 
 We use adb tool to take a screenshot of the phone, and then use the next command to send over the image to the computer. Next, we use a set of image processing techniques to extract relevant features in the image that are required to solve the games. 
+
 ##### Installing ADB Tool
 We need to install Java JDK or Android SDK in order to be able to use the ADB tool. Before installing either, you’ll have to install Oracle’s Java development kit. If you see a Java-related error during installation, ensure you downloaded and installed the x86 version of the JDK, not the x64 one.
 
