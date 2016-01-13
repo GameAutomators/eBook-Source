@@ -2,7 +2,7 @@
 In this method we will be using the concepts of electronics and image processing together to automate the game.The Basic concepts of image processing which we are going to use is described in detail in the next chapter of this book.
 
 ##### Approach
-![image11]()
+![image11](/Images/methods-3.png)
 Fig.The image depicts the connection between the computer,microcontroller and the phone
 
 We use a webcam which takes the pictures of the mobile screen and sends it to MATLAB so that it can be used for the next processing step.The MATLAB algorithm processes the image according to our need and generates the duration of touch and sends it to the microcontroller(Arduino here),which in turn is used to simulate the touch on the phone screen using certain circuits.
