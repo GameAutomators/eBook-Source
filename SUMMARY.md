@@ -21,8 +21,8 @@
         * [Debugging](ImageProcessing/Matlab/debugging.md)
 
 * [Different Methods of Automating](Methods/README.md)
-    * [Using electronic Circuits](Methods/electronic.md)
     * [Using ADB and IP](Methods/adb.md)
+    * [Using electronic Circuits](Methods/electronic.md)
     * [Using electronic circuits and IP](Methods/circuit.md)
 
 * [Specific Examples](Examples/README.md)

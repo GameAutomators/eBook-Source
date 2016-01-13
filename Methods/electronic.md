@@ -1,14 +1,16 @@
-# Different Methods
-# 5.1. Using Electronic Circuits
+# Using Electronic Circuits
+
 This is a way to automate the mobile game without using any internal functions of Android library by using a clever integration of electronic sensors. 
 
 ##### Approach
-![image9]()
+
+![image9](/Images/method-1.png)
 Fig. The image depicts the block diagram for a typical circuit that can solve a game
 
 ##### Touch Simulation
 For this we have to understand how capacitive touch screens work. The electrodes apply a low voltage to the conductive layer creating a uniform electrostatic field. When a finger hits the screen a tiny electrical charge is transferred to the finger to complete the circuit creating a voltage drop at that point on the screen. The location of this voltage drop is recorded by the controller and this is how a capacitive touch screen works.
-![image10]()
+
+
 We are going to use this concept, except that in the place of a finger, we use the ground pin on the arduino to transfer the charge on the screen. To have more surface area on the display of the screen, we use a coin.
 ##### When should we prefer to use Electronic circuits?
 Since ADB tool processing is slow as discussed earlier, so it become difficult to solve time bounded game. This problem can be overcome by using electronics circuits.

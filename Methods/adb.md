@@ -3,7 +3,7 @@
 Android Debug Bridge (adb) is a tool that allows the computer to communicate with   attached devices, capturing screenshots of the mobile screen, simulating virtual touches and swipes, etc., The latter two are the things that we will be using over and over again in the following tutorials that we use to solve various games.
 ##### Approach
 
-![image1]()
+![image1](/Images/method-2.png)
 Fig: the image depicts the workflow of algorithm for solving the games
 
 We use adb tool to take a screenshot of the phone, and then use the next command to send over the image to the computer. Next, we use a set of image processing techniques to extract relevant features in the image that are required to solve the games. 
