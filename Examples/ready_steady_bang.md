@@ -1,11 +1,13 @@
 # Ready Steady Bang
 
+### About the game
+
 The game has two players, one is system automated and the other is player controlled. Both the players are allowed to shoot as soon as the word **'Bang'** prompted on the screen. The objective of the game is to fire the opponent before he does by tapping anywhere on the screen immediately after the ‘BANG’ appears.
 
 **Playstore Link:**  [Ready Steady Bang](https://play.google.com/store/apps/details?id=com.noodlecake.rsb&hl=en)
 
-![PlayStoreImage | width=200px](/Images/BangPlaystore.png) 
-![Game Image | width=200px](/Images/BangGameplay.png)
+![PlayStoreImage](/Images/BangPlaystore.png) 
+![Game Image](/Images/BangGameplay.png)
 
 ##### Difficulty Level
 Moderate
