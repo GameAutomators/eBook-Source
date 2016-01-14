@@ -1,9 +1,10 @@
 # Summary
 
-# [Preface](Preface/README.md)
+# [Background](Preface/README.md)
 
 * [Introduction](Introduction/README.md)
     * [Overview](Introduction/overview.md)
+    * [Prerequisites](Introduction/prerequisites.md)
 
 * [Electronics](Basics/README.md)
     * [Introduction to Electronics](Basics/introduction.md)
