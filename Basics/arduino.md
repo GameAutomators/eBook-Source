@@ -1,8 +1,9 @@
-# INTRODUCTION TO ARDUINO
+# Introduction to Arduino
 
 Arduino is an open-source platform used for building electronics projects. Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on your computer, used to write and upload computer code to the physical board.
 
 Jeremy Blum's Arduino tutorials on the YouTube are one of the best out there, watch the first three videos to get the basic understanding of Arduino.
+
 **Link:** https://www.youtube.com/watch?v=fCxzA9_kg6s&list=PLV009FNOX7Tf-XSyghg2vrSYXw1QcCHaX
 
 ![image]()
