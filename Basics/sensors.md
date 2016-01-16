@@ -8,7 +8,7 @@ An LDR is commonly used for wide range of applications because of it provides de
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
 
-![LDR basic](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/LDR_1480405_6_7_HDR_Enhancer_1.jpg/240px-LDR_1480405_6_7_HDR_Enhancer_1.jpg)
+![LDR basic](/Images/HDR_Enhancer_1.jpg)
 
 #### How it works
 It works on the principle of photo conductivity. When light is incident on top of a LDR, the elctronics and holes are seperated- hence the conductivity increases i.e., resistivity decreases. When the light is not incident, they are very few freely moving holes and electrons- so the conductivity is less i.e., the resistivity is high.
@@ -16,7 +16,7 @@ It works on the principle of photo conductivity. When light is incident on top o
 #### Circuit for LDR
 Assume that LDR is connected at Z1 and Z2 is a resistor. As discussed in the previous chapter, the LDR can be used in a voltage divider circuit to convert this change in resistance because of the external light to change in voltage. We are doing this because the microcontroller can only detect the change in voltage.
 
-![LDR circuit](https://upload.wikimedia.org/wikipedia/commons/f/f4/Impedance_Voltage_divider.png)
+![LDR circuit](/Images/Voltage_divider.png)
 
 #### Examples of application
 An LDR can be used to detect the different of bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.

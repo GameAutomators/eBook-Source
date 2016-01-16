@@ -22,6 +22,6 @@ This book is a contribution from the following amazing members of the community.
 * Satya
 * Shivani
 * Spandan
-* Sudheesh
-* Surya
+* Sudheesh Singanamalla
+* Surya Penmetsa
 * Vamsi
