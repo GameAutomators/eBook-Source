@@ -1,6 +1,6 @@
 # Building Mobile Game Solvers
 
-<p style="text-align:center;">This book is a unique work in Game Development, Computer Science and Electronics</p>
+<p style="text-align:center;">This book is a unique work in Game Algorithms, Electronics, Image Processing and Machine Learning</p>
 
 <hr>
 
