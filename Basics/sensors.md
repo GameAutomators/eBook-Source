@@ -1,10 +1,12 @@
 # Sensors for automating games
 
+This section lists the various electronic sensors that can be used detect the differences on the phone screen. The common and main idea for all of these sensors is that it senses the light that is following and somehow convert it into an understandable format. For examples, LDR converts the change in light intensity that is falling on top of it. 
+
 ### Light Dependent Resistor(LDR)
 
-An LDR is commonly used for wide range of applications because of it provides decently accurate information of the external lighting and at the same time economical. It is basically a light controlled resistor- which means that the resistance across it's terminals changes according to the light incident on it. This can be used in projects where you want to sense the lighting in the surrondings. One of it's common applications is to be used to turn on lights automatically in the evening.
+An LDR is commonly used for wide range of applications because of it provides decently accurate information of the external lighting and at the same time economical. It is basically a light controlled resistor- which means that the resistance across it's terminals changes according to the light incident on it. This can be used in projects where you want to sense the lighting in the surrondings. One of it's common applications is to be used to turn on lights automatically in the evening. A video tutorial on how you can build such a circuit is below.
 
-[Here's](https://www.youtube.com/watch?v=_uglvulpofQ&index=4&list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs) a video tutorial on how you can build such circuits.
+Link: https://youtu.be/_uglvulpofQ 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
 
@@ -18,12 +20,15 @@ Assume that LDR is connected at Z1 and Z2 is a resistor. As discussed in the pre
 
 ![LDR circuit](/Images/Voltage_divider.png)
 
+This is how the LDR must be connected to the Arduino. This circuit diagram has been created using fritzing.
+
+![LDR arduino](/Images/ldr_arduino.png)
+
 #### Examples of application
+
 An LDR can be used to detect the different of bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
 
-This is used in the games Piano Tiles and Ready Steady Bang.
-
-
+This is used in the games Piano Tiles and Ready Steady Bang because the primary concept in this games is the identify the difference in intensities of light on screen.
 
 #### Source code for using LDR with Arduino
 

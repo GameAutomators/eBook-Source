@@ -18,7 +18,7 @@ We open-sourced all of the projects so that people around the world can replicat
 
 This book **Building Mobile Game Solvers** is a result of our work during the internship. I hope you learn a lot while reading the book and at the same have a lot of fun. The book has been extended further with more projects during the hackathon 5.0 organised by The Lakshya Foundation at NIT Warangal.
 
-Here's a video of overview of the internship at NIT Warangal: https://youtu.be/iDJW98c7uhg
+Here's a video of overview of the winter internship at NIT Warangal: https://youtu.be/iDJW98c7uhg
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iDJW98c7uhg" frameborder="0" allowfullscreen></iframe>
 
