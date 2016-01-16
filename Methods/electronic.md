@@ -2,7 +2,7 @@
 
 This is a way to automate the mobile game without using any internal functions of Android library by using a clever integration of electronic sensors. 
 
-##### Approach
+### Approach
 
 ![image9](/Images/methods-1.png)
 
@@ -13,17 +13,18 @@ For this we have to understand how capacitive touch screens work. The electrodes
 
 
 We are going to use this concept, except that in the place of a finger, we use the ground pin on the arduino to transfer the charge on the screen. To have more surface area on the display of the screen, we use a coin.
-##### When should we prefer to use Electronic circuits?
+
+### When should we prefer to use Electronic circuits?
+
 Since ADB tool processing is slow as discussed earlier, so it become difficult to solve time bounded game. This problem can be overcome by using electronics circuits.
-##### Are there any drawbacks ?
+
+### Disadvantages
 - External condition affects the working of the circuits.
 - Setting up the touch part of the circuit takes some time.
 - It becomes difficult to debug the circuit.
-- It’s difficult to write complicated algorithms using Arduino.
+- It's difficult to write complicated algorithms using Arduino.
 - Not many games can be solved because we can not implement Machine Learning to Arduino.
 - Circuit required to simulate swipe becomes a bit difficult.
 
-
-
-##### Games which can be solved using this method
-“PIANO TILES” and “READY STEADY BANG” are some Android game which can be solved using this method because in these we just need to detect a particular word or a small part using sensors and then simulating touch using electronic circuits.
+### Games which can be solved using this method
+Piano Tiles and Ready Steady Bang are some Android game which can be solved using this method because in these we just need to detect a particular word or a small part using sensors and then simulating touch using electronic circuits.
