@@ -4,13 +4,14 @@ This section lists the various electronic sensors that can be used detect the di
 
 ### Light Dependent Resistor(LDR)
 
+![LDR basic](/Images/HDR_Enhancer_1.jpg)
+
 An LDR is commonly used for wide range of applications because of it provides decently accurate information of the external lighting and at the same time economical. It is basically a light controlled resistor- which means that the resistance across it's terminals changes according to the light incident on it. This can be used in projects where you want to sense the lighting in the surrondings. One of it's common applications is to be used to turn on lights automatically in the evening. A video tutorial on how you can build such a circuit is below.
 
 Link: https://youtu.be/_uglvulpofQ 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
 
-![LDR basic](/Images/HDR_Enhancer_1.jpg)
 
 #### How it works
 It works on the principle of photo conductivity. When light is incident on top of a LDR, the elctronics and holes are seperated- hence the conductivity increases i.e., resistivity decreases. When the light is not incident, they are very few freely moving holes and electrons- so the conductivity is less i.e., the resistivity is high.
@@ -23,12 +24,6 @@ Assume that LDR is connected at Z1 and Z2 is a resistor. As discussed in the pre
 This is how the LDR must be connected to the Arduino. This circuit diagram has been created using fritzing.
 
 ![LDR arduino](/Images/ldr_arduino.png)
-
-#### Examples of application
-
-An LDR can be used to detect the different of bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
-
-This is used in the games Piano Tiles and Ready Steady Bang because the primary concept in this games is the identify the difference in intensities of light on screen.
 
 #### Source code for using LDR with Arduino
 
@@ -59,6 +54,52 @@ void loop()
     delay(20);
 }
 ```
+
+#### Sensor placement on screen
+
+Here's how the LDR can be placed on the top of the screen.
+
+![LDR arduino block](/Images/ldr_arduino_block.png)
+
+The output voltage from the LDR circuit changes depending on the screen color (either white or black). We have to choose a value in between both of them with we call the threshold to differentiate the colors. This threshold value can be found by watching the values of white and black on the serial monitor.
+
+Once the sensor threshold value is found, we can use the following code to perform tasks accordingly.
+
+```C
+void setup()
+{
+	thresholdValue = 500; // obtained from observation of serial monitor
+}
+
+void loop()
+{
+    // reading the value from sensor and storing it in a variable
+    sensorValue = analogRead(A0);
+    
+    if(sensorValue > thresholdValue)
+    {
+    	// perform task when screen white
+    }
+    else
+    {
+    	// perform task when screen dark
+    }
+
+    delay(20);
+}
+```
+
+#### Sensor protection from ambient light
+
+This threshold value could change depending on the ambient light in the room. So, we use a shield for the LDR to keep it. Shielding is optional but we suggest you to do that. This will make the values that LDR returns consistent irrespective of the external light. We make sure that the color of the shield is dark so that it would block more light.
+
+![LDR shield](/Images/ldr_shield.jpg)
+
+#### Examples of application
+
+An LDR can be used to detect the different of bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
+
+This is used in the games Piano Tiles and Ready Steady Bang because the primary concept in this games is the identify the difference in intensities of light on screen.
 
 ### RGB Sensors
 
