@@ -4,7 +4,7 @@ The game consists of tapping on the black tiles only.One need to see where are t
 
 ##### Playstore Link: [Piano Tiles](https://play.google.com/store/apps/details?id=com.umonistudio.tile&hl=en)
 
-![Image](Images/piano_tiles.jpg)
+![Image](/Images/piano_tiles.jpg)
  
 #### Difficulty Level:
 Moderate
