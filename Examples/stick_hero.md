@@ -25,19 +25,19 @@ Moderate
 #### Circuit Diagram:
 
 
-#### Tutorial:
-#####  Step 1:Detecting the black pillars:
+#### Tutorial
+#####  Step 1: Detecting the black pillars:
 This is done by using Matlab. The image that is captured from the IP Cam is  processed and the locations of the black pillars are determined. The distance between the black pillars is calculated and the corresponding data is sent to the Arduino through serial communication.
 
 The source code for the above processing can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/MATLAB)
 
 
 
-##### Step 2:Determining the duration of the touch:
+##### Step 2: Determining the duration of the touch:
 Based on the data arrived from Matlab, the duration of the touch is adjusted such that the stick exactly falls on the adjacent pillar.
 
 The source code for the arduino can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/Arduino).
-##### Step 3:Simulating Touch:
+##### Step 3: Simulating Touch:
 
 For this we have to understand how capacitive touch screens work. The electrodes apply a low voltage to the conductive layer creating a uniform electrostatic field. When a finger hits the screen a tiny electrical charge is transferred to the finger to complete the circuit creating a voltage drop at that point on the screen. The location of this voltage drop is recorded by the controller and this is how a capacitive touch screen works.
 
