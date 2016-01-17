@@ -1,29 +1,53 @@
-### How any Color can be Represented as a Combination of RGB?
-For image processing, we need to understand the formation of a digital image on its pixel level. A color image is a three-layered matrix. More precisely, it's just three functions to be pasted together. These three functions are Red, Green and Blue. In other words, we can say that each color can be represented by the combination of these three colors.
+# Types of Images
 
-  *f(x, y) = [r (x, y), g(x, y), b(x, y) ]*
-
-The following image is a pop-up box in paint window. Here you can see in the right bottom corner, there is a color representation in terms of Red, Green and Blue. We call this as RGB value of the color.
-
-![ColorImage]()
-
-In a similar fashion every pixel has its RGB value.
-
-### Types of Images
-On the basis of image processing, Images can be classified into three categories :-
+The images are classified into three main categories which are mentioned below.
 - Binary Image
 - Grayscale Image
 - RGB Image
 
-##### Binary Image
-The term ‘bi’ represents two i.e. an image in which all pixels have either 0’s or 1’s is a binary image. Those pixels having pixel value as 0 are black in display while the white ones are represented as 1.
+Let us discuss each one of them now.
 
+### Binary Image
 
-##### Grayscale Image
-Grayscale image also represents a 2-D matrix. The only difference between grayscale and binary image is that it’s pixels can have value from 0 to 255. Here 0 will represent ‘pure black’ and 255 will represent ‘pure white’ color.     
-The pixels having pixel value in between 0 and 255 will look like ‘gray’ in color i.e. a mixture of black and white.
+In a binary image, each of the pixels are either black or white. There is no other color, not even gray. Below is an example for a binary image.
 
-##### RGB Image
-RGB image is used to display a 3-D image. A colored image consists of three layers i.e. the Red, Blue and Green color component of every pixel.
+![ColorImage](/Images/binary_image.jpg)
 
-![TypesofImages]()
+Typically in a binary image, black is represented by the value 0 and white is represented by the value 1. This way, a binary image can be stored in a 2D matrix with just the numbers 0 and 1 in it. Below is an example of the same.
+
+![ColorImage](/Images/binary_image.gif)
+
+### Grayscale Image
+
+In a grayscale image, apart from having white and black; you can also have various shades of gray. The value of each pixel varies from 0 to 255 where 0 represents pure black; 255 represents pur white; and all the values in between represent various shades of grey. The same is depicted in the image below for clear understanding.
+
+![ColorImage](/Images/grayscale_image.jpg)
+
+The grayscale image is stored in a 2D matrix with the values of each element varying between 0 and 255. An example of a grayscale image is shown below.
+
+![ColorImage](/Images/gray_values.png)
+
+Here's the image of Lena in grayscale.
+
+![ColorImage](/Images/lena_gray.bmp)
+
+### RGB image
+
+RGB stands for red, green and blue. Before getting into what an RGB image consists of, we have to understand how each and every color can be represented. 
+
+##### Representation of colors
+
+Each of the pixels is represented by a single color and every color can be represented as a combination of three colors- red, green and blue. For example, white is the presence of all three colors: red, green and blue whereas black is the absense of these colors. 
+
+Below is the image of the popular color pallete in Microsoft Paint. You can select any color in the box in the right half of image. It's corresponding red, green and blue values are represented at the left bottom of the screen. 
+
+This is a 24-bit image, i.e., 8 bits in red, 8 bits in green and 8 bits in blue. Because it is 8 bits- the value of each color can vary between 0 and 255. 0 represents the absense of the color and 255 represents the presence. In this image, the color choosen has a value of red 255, green 128 and blue 64. It means the color has full red component, half green component and quarter blue component.
+
+![ColorImage](/Images/color_pal.png)
+
+##### RGB Image Matrix
+
+By using the above concept, any image can be represented as a combination of three layers- read, green and blue. This is depicted in the image below.
+
+![ColorImage](/Images/rgb_example.png)
+

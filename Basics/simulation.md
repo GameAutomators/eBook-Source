@@ -53,7 +53,7 @@ Here's how you have to connect the relay in a circuit to simulate touch.
 
 ![Relay Arduino Circuit](/Images/relay_arduino.png)
 
-Here's the code to simulate touch and no touch alternatively with a time perios of two seconds.
+Here's the code to simulate touch and no touch alternatively with a time period of two seconds.
 
 ```C
 void setup() 
