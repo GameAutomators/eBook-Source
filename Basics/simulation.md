@@ -72,7 +72,19 @@ void loop()
 	delay(1000);
 }
 ```
+#### Touch simulation on screen
 
+Here's how the touch circuit can be placed on the top of the screen.
+
+![LDR arduino block](/Images/touch_arduino_block.png)
+
+We should also make sure that there is enough contact between the wire from the output of the relay and the surface of the screen. Hence, we can use a coin or aluminium foil for this purpose. 
+
+#### Debugging
+
+I must concede that getting the touch to work at first it hard. While using this circuit, try to have your phone in developer mode so that you exact understand when where the screen is being touched. 
+
+If you circuit doesn't work directly, it's probably because the ground of your mobile and that of the circuit do not match. For overcoming this diffculty, you can try the following: make sure your circuit is not placed on an iron conductor, change the material used to increase the surface area of touch, try to plug both your circuit and the mobile into USB ports from the same computer, etc.,
 
 ### Using Transistors
 

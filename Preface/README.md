@@ -59,6 +59,10 @@ a = imread('input.jpg');
 imshow(a);
 ```
 
+### Downloading the codes used in the book
+
+All the codes that have been used in the book can be found at this link: https://github.com/GameAutomators
+
 ### Downloading color images in the book
 
 You can find the color images that have been used in the book at the following links: https://github.com/GameAutomators/eBook-Source/tree/master/Images
