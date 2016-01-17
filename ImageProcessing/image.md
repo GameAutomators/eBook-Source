@@ -3,6 +3,7 @@
 In this section, we learn what is an image and what does it consist of.
 
 ### Basics
+
 Below is the image of lena is what we come across very often in image processing. New algorithms are experimented on this image as it consists of a diverse chunks like- curly hair, plain background, human face, etc.,
 
 ![ImageExample](/Images/WhatIsAnImage.png)
