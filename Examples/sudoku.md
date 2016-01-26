@@ -4,7 +4,7 @@
 ### Game Description
 This is a single player game. The player has to solve sudoku mazes (9x9 grid).
 
-![Grid](/Image/grid.png)
+![Grid](/Images/grid.png)
 
 The objective of sudoku is to enter a digit from 1 through 9 in each cell, in such a way that:
 
