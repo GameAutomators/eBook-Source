@@ -4,6 +4,7 @@
 ### Game Description
 This is a single player game. The player has to solve sudoku mazes (9x9 grid).
 ![Playstore](/Images/playstore_sudoku.png) 
+
 The objective of sudoku is to enter a digit from 1 through 9 in each cell, in such a way that:
 
  Each horizontal row (shown in pink) contains each digit exactly once.
