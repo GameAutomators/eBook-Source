@@ -7,7 +7,7 @@ This is a two-player game. The player and the system get alternative chances to 
 Playstore Link: [Tic Tac Toe](https://play.google.com/store/apps/details?id=com.pinkpointer.tictactoe&hl=en)
 
 ![Playstore](/Images/tttps.png) 
-![Image](/Images/tttim2.png=186*330)
+![Image](/Images/tttim.png)
 
 #### Difficulty level
 Moderate
