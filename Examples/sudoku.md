@@ -3,7 +3,8 @@
 
 ### Game Description
 This is a single player game. The player has to solve sudoku mazes (9x9 grid).
-![Playstore](/Images/playstore_sudoku.png) 
+
+![Grid](/Image/grid.png)
 
 The objective of sudoku is to enter a digit from 1 through 9 in each cell, in such a way that:
 
@@ -15,8 +16,8 @@ The objective of sudoku is to enter a digit from 1 through 9 in each cell, in su
 
 
 Playstore Link: [Sudoku](https://play.google.com/store/apps/details?id=le.lenovo.sudoku&hl=en)
-
 ![Playstore](/Images/playstore_sudoku.png) 
+
 ![Image](/Images/sudo.png)
 
 #### Difficulty level
