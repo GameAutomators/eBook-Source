@@ -46,17 +46,51 @@ The pulled image is stored in the form of a matrix of pixel values by the MATLAB
                 
 ##### Step 2: Image processing
 
-Once the screenshot is obtained, allignment and position of blocks are detected and are numbered differnetly.
-after this step a 6x6 matrix is been returned in which position of all the blocks is stored.
+After taking screenshot main part of game is cropped out. Since Target block is of almost red color.
+so for specially that block, red color thresholding is performed.
+
+```
+ImBW = Im(:,:,2) < 10;
+S = regionprops(ImBW,'BoundingBox','Area');
+
+```
+S.BoundingBox gives the x,y,width and height of target block.
+
+Now to detect other blocks position other color thresholding is applied.
+
+```
+ImBW = Im(:, :, 1) > 220;
+ImBW = imfill(ImBW,'holes');
+S = regionprops(ImBW,'BoundingBox','Area');
+
+for in=1:numel(S)
+    if S(in).Area > 5000
+        % take only those block whose Area is > 5000 since regionprops may detect small on. of rectangles. 
+    end
+end
+```
 
 ##### Step 3: Algorithm
 
-The algorithm uses a simple Breadth first search to find a particular order of moves to free the red block
+The algorithm uses a simple Breadth first search to find a particular order of moves to free the red block.
+
+```
+	Enqueue the current board
+	while Q not empty:
+    	Dequeue a board and examine it
+    	can block escape?
+        	he can! Ok
+    	he cant?
+        	for each possible board that can arise out of this one
+            	add board to END of Q
+```
+
 The code is written in c++ . it takes command line string input  and return string have order of moves.
- using following commands in matlab we can run c++ program.
+using following commands in matlab we can run c++ program.
+
 ```
 %  s is input string.
-cmd = 'sudoku.exe ';
+cmd = 'unblock.exe ';
 [status,out] = system([cmd s]);
 ```
 
