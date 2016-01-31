@@ -4,11 +4,9 @@
 ### Game Description
 This is a single player game. The player has to connect the similar colors in such a way that path of two colors should not be intersected.
 
-![Grid](/Images/gridFlow.png)
-
-
 
 Playstore Link: [FlowFree](https://play.google.com/store/apps/details?id=com.bigduckgames.flow)
+
 ![Playstore](/Images/playstore_flowfree.png) 
 
 ![Image](/Images/flowfree.png)
