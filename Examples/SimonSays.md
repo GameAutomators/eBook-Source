@@ -1,4 +1,5 @@
 # Simon Says
+
 Documenation for the game __Simon Says__, solved by __Team al_MASS__ for Hackathon 5.0
 
 ### Introduction
