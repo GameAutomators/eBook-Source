@@ -32,6 +32,7 @@
         * [Playing the song](Examples/playing_the_song.md)
         * [Tic Tac Toe](Examples/tic_tac_toe.md)
         * [Find The Difference](Examples/find_the_difference.md)
+        * [Move](Examples/move.md)
     * [Using Electronic Circuits](Examples/circuits.md)
         * [Ready Steady Bang](Examples/ready_steady_bang.md)
         * [Piano Tiles](Examples/piano_tiles.md)
