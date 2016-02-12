@@ -1,18 +1,18 @@
 # Preface
 
-We think that making learning fun is an extremely important issue and this book is an attempt to do just that. The purpose of the book is to teach you concepts of algorithms, electronics, image processing and machine learning. 
+Making learning fun is an extremely important. Many of us would have played video games when we were young, and what kept us glued and excited was to make a high score. How awesome would it be to build your own robots and algorithms that play these game? How exciting would it be to watch how your algorithm will make it through the level that you found very hard?
 
-A survey suggests that about a half of the general public play video games, and a tenth of them consider themselves as serious gamers. The main motivation that drives most of these people is to make a high score in the game. 
-
-But what if we can apply the concepts that, we as engineers know, to build robots and automated algorithms to solve these mobile games? It will motivate more students to work on innovative ways to solve the games rather than spend hours trying to make high scores. We find this idea very fascinating and that's what the book covers.
+This book is an attempt in that direction. It will introduce you on how to build systems and robots that can play mobile games. This approach will help you learn concepts of algorithms, electronics, image processing and machine learning; and having a lot of fun at the same time. 
 
 ### Background 
 
-I’m Surya, an alumni of NIT Warangal (ECE 2015). I started working on such robots and algorithms during my final year at college. They could solve mobile games using concepts of electronics, image processing and machine learning. We use electronics to sense what's on the screen and simulate touch at the appropriate locations.
+I’m Surya, an alumni of NIT Warangal graduated from ECE in 2015. I started working on such robots and algorithms during my final year at college. They could solve mobile games using concepts of electronics, image processing and machine learning. We use electronics to sense what's on the screen and simulate touch at the appropriate locations. 
 
-I decided it was time for me to take the work to the next level. With the help of The Lakshya Foundation and Innovation Garage, I teamed up with fifteen students from NIT Warangal during the winter vacation in December 2015.
+I uploaded the video of one of the robots that could play the game piano tiles on YouTube and it went viral. It was watched by more than 200,000 people. On popular demand, I also uploaded a tutorial video for the same and it again got over 200,000 views. This shows the excitement and interest of people to solve games in an innovative manner.
 
-Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for five different games which beat human-level-performance. 
+I decided it was time for me to take the work to the next level. With the help of The Lakshya Foundation and Innovation Garage, I teamed up with students from NIT Warangal during the winter vacation in December 2015, and Hacakthon 5.0 in January 2016 to solve more games.
+
+Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for various games which beat human-level-performance. 
 
 We open-sourced all of the projects so that people around the world can replicate and build upon it. We also made video demonstrations for all projects and uploaded them on YouTube. Apart from giving students and enthusiasts a new dimension to learn, this also contributes in building the brand of NIT Warangal.
 
@@ -25,6 +25,18 @@ Here's a video of overview of the winter internship at NIT Warangal: https://you
 </div>
 
 We are open sourcing this book so that it can get better in quality by contributors across the world. We invite you, the reader, to be a contributor to the book to have more projects. The details on how to contribute are at the end of the book.
+
+### Scope
+
+Artificial Intelligence has been one of the fast growing fields in the past five years. This book could also bolster the interest of the readers towards the field of Artificial Intelligence. 
+
+Once people learn building machines for game playing, they can expand into other areas in AI such as- natural language processing, robotics, computer vision, stock trading, medical diagnosis, etc.
+
+### Prerequisites
+
+So what should you know in order to get started? This book has been carefully designed in such a way that it is will help both readers who have never worked on electronics or imaging before, and at the same time be helpful for people who have decent experience in these two fields and are looking forward to apply those concepts on these real time scenarios.
+
+We tried to cover the concepts that are relevant to solving mobile games in this book. In case you want to learn more, we have provided you with links at relevant places. 
 
 ### What this book covers
 
