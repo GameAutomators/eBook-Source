@@ -2,7 +2,7 @@
 
 ### Game Description
 
-![image1](move1) 
+![image1](/Images/move1.jpg) 
 ![Image2](move2)
 ![Image3](move3)
 
