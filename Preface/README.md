@@ -20,7 +20,9 @@ This book **Building Mobile Game Solvers** is a result of our work during the in
 
 Here's a video of overview of the winter internship at NIT Warangal: https://youtu.be/iDJW98c7uhg
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iDJW98c7uhg" frameborder="0" allowfullscreen></iframe>
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/iDJW98c7uhg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 We are open sourcing this book so that it can get better in quality by contributors across the world. We invite you, the reader, to be a contributor to the book to have more projects. The details on how to contribute are at the end of the book.
 
@@ -79,4 +81,4 @@ We are always looking to improve the quality of the book. The feedback from the 
 
 ### Questions
 
-If you find any mistake in the book text or the code- we would be grateful if you could report this. You can contact us at p.surya194@gmail.com if you are facing any issues with the book, and we will try our best to address it. 
+If you find any mistake in the book text or the code- we would be grateful if you could report this. You can contact us at p.surya1994@gmail.com if you are facing any issues with the book, and we will try our best to address it. 
