@@ -32,6 +32,12 @@ Artificial Intelligence has been one of the fast growing fields in the past five
 
 Once people learn building machines for game playing, they can expand into other areas in AI such as- natural language processing, robotics, computer vision, stock trading, medical diagnosis, etc.
 
+### Prerequisites
+
+So what should you know in order to get started? This book has been carefully designed in such a way that it is will help both readers who have never worked on electronics or imaging before, and at the same time be helpful for people who have decent experience in these two fields and are looking forward to apply those concepts on these real time scenarios.
+
+We tried to cover the concepts that are relevant to solving mobile games in this book. In case you want to learn more, we have provided you with links at relevant places. 
+
 ### What this book covers
 
 *Chapter 1, Introdction,* covers the basic idea of the approach that we are going to use to solve the games in this book.

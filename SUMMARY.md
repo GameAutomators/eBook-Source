@@ -3,8 +3,10 @@
 * [Preface](Preface/README.md)
 
 * [Introduction](Introduction/README.md)
-    * [Overview](Introduction/overview.md)
-    * [Prerequisites](Introduction/prerequisites.md)
+    * [Setting up ADB tool](Introduction/0-adb.md)
+    * [Using Image Processing](Introduction/1-image.md)
+    * [Using Electronics](Introduction/2-electronic.md)
+    * [Using Image Processing and Electronics](Introduction/3-both.md)
 
 * [Electronics](Basics/README.md)
     * [Introduction to Electronics](Basics/introduction.md)
