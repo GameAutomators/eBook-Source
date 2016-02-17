@@ -25,3 +25,5 @@ Vout = ((R2) / (R1 + R2)) * Vin
 We will use this circuit in the next chapter when we talk about the Light Dependent Resistor (LDR).
 
 LDR can be used in place of one of the resistors. The resistance of the LDR decreases if the incident light increases, and vice-versa. This change in resistance can be used to produce a change in voltage at the output which is important in many applications. For example, when we use a microcontroller, we can detect the lighting in a room by just measuring the voltage at the output of a voltage divider circuit in which an LDR is used in place of one of the resistors. 
+
+Next, let us learn about how to use microcontrollers in building electronic circuits, specifically, Arduino.
