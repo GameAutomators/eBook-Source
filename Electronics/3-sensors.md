@@ -13,10 +13,12 @@ Link: https://youtu.be/_uglvulpofQ
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
 
 
-#### How it works
+#### Working
+
 It works on the principle of photo conductivity. When light is incident on top of a LDR, the elctronics and holes are seperated- hence the conductivity increases i.e., resistivity decreases. When the light is not incident, they are very few freely moving holes and electrons- so the conductivity is less i.e., the resistivity is high.
 
-#### Circuit for LDR
+#### Circuit
+
 Assume that LDR is connected at Z1 and Z2 is a resistor. As discussed in the previous chapter, the LDR can be used in a voltage divider circuit to convert this change in resistance because of the external light to change in voltage. We are doing this because the microcontroller can only detect the change in voltage.
 
 ![LDR circuit](/Images/Voltage_divider.png)
