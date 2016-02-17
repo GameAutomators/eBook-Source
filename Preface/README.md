@@ -6,23 +6,33 @@ This book is an attempt in that direction. It will introduce you on how to build
 
 ### Background 
 
-I’m Surya, an alumni of NIT Warangal graduated from ECE in 2015. I started working on such robots and algorithms during my final year at college. They could solve mobile games using concepts of electronics, image processing and machine learning. We use electronics to sense what's on the screen and simulate touch at the appropriate locations. 
+I’m Surya, an alumni of NIT Warangal graduated from ECE in 2015. I started working on such robots and algorithms during my final year at college. They could solve mobile games using concepts of electronics, image processing and machine learning. We use electronic sensors or image processing to sense what's on the screen; and then simulate touch physically or virtually at the appropriate locations. 
 
-I uploaded the video of one of the robots that could play the game piano tiles on YouTube and it went viral. It was watched by more than 200,000 people. On popular demand, I also uploaded a tutorial video for the same and it again got over 200,000 views. This shows the excitement and interest of people to solve games in an innovative manner.
+I uploaded the video of one of the robots that could play the game piano tiles on YouTube and it went viral. It was watched by more than 200,000 people. Video link: https://youtu.be/2TJ7itil1cc
+
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/2TJ7itil1cc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+On popular demand, I also uploaded a tutorial video for the same and it again got over 200,000 views. This shows the excitement and interest of people to solve games in an innovative manner. Video link: https://youtu.be/8hlQ0MiowN8
+
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/8hlQ0MiowN8" frameborder="0" allowfullscreen></iframe>
+</div>
 
 I decided it was time for me to take the work to the next level. With the help of The Lakshya Foundation and Innovation Garage, I teamed up with students from NIT Warangal during the winter vacation in December 2015, and Hacakthon 5.0 in January 2016 to solve more games.
-
-Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for various games which beat human-level-performance. 
-
-We open-sourced all of the projects so that people around the world can replicate and build upon it. We also made video demonstrations for all projects and uploaded them on YouTube. Apart from giving students and enthusiasts a new dimension to learn, this also contributes in building the brand of NIT Warangal.
-
-This book **Building Mobile Game Solvers** is a result of our work during the internship. I hope you learn a lot while reading the book and at the same have a lot of fun. The book has been extended further with more projects during the hackathon 5.0 organised by The Lakshya Foundation at NIT Warangal.
 
 Here's a video of overview of the winter internship at NIT Warangal: https://youtu.be/iDJW98c7uhg
 
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/iDJW98c7uhg" frameborder="0" allowfullscreen></iframe>
 </div>
+
+Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for various games which beat human-level-performance. 
+
+We open-sourced all of the projects so that people around the world can replicate and build upon it. We also made video demonstrations for all projects and uploaded them on YouTube. Apart from giving students and enthusiasts a new dimension to learn, this also contributes in building the brand of NIT Warangal.
+
+This book **Building Mobile Game Solvers** is a result of our work. I hope you learn a lot while reading the book and at the same have a lot of fun. 
 
 We are open sourcing this book so that it can get better in quality by contributors across the world. We invite you, the reader, to be a contributor to the book to have more projects. The details on how to contribute are at the end of the book.
 

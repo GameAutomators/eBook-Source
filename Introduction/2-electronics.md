@@ -4,7 +4,7 @@ This is a way to automate the mobile game without using any internal functions o
 
 ### Approach
 
-![image9](/Images/methods-2.png)
+![image9](/Images/methods-2.jpg)
 
 *Fig. The image depicts the block diagram for a typical electronic circuit that can solve a game on the mobile*
 

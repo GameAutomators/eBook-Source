@@ -1,6 +1,15 @@
 ### Image Enhancement
 
+The above image thresholding algorithm might not always work. Sometimes you will have to do some additional processing before you can detect the location of the object and that is what we will be learning now.
+
+Below are a few of the funtions functions that you can use for post enhancement of your binary image.
+
+
+
+Let us learn about each of them in detail now.
+
 #### imfill
+
 Fill image regions and holes.
 
 **Syntax**
