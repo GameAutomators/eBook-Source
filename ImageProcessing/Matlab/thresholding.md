@@ -1,9 +1,12 @@
-### Image Thresholding in MATLAB
-Image thresholding is a simple way of partitioning an image detecting specific objects in the image. This image analysis technique is a type of image segmentation that converts grayscale images into binary images. The binary image has the object of interest marked in white and rest of the image in black (or vice-versa) depending on how you threshold.
+### Image Thresholding Technique
 
-Image thresholding is most effective in images when the color of the object of interest is in good contrast with the background. Basically, thresholding is used to separate one color from the image. We can write this as a “vector-valued” function :
+Image thresholding is a simple way of detecting specific objects in the image. This technique converts RGB or grayscale images into binary image that has the object of interest seperated out. The binary image has the object of interest marked in white and rest of the image in black (or vice-versa) depending on how you threshold.
 
-*f(x, y) = [r (x, y), g(x, y), b(x, y) ]*
+In this technique, we seperate the object of interest based on the pixel values. We specify that all the pixels which have their values in a specific range must be give the value of 1 and rest as 0. For example, in the following image, you can see that the foreground and background are of different colors. Here's the command that you can use for thresholding.
+
+Image thresholding is most effective in images when the color of the object of interest is in good contrast with the background. Basically, thresholding is used to separate one color from the image. We can write this as a 'vector-valued' function :
+
+*f(x, y) = [r (x, y), g(x, y), b(x, y)]*
 
 In an image, each pixel is a combination of red, green and blue color, where the value of each function can be defined between 0 to 255.
 

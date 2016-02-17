@@ -1,4 +1,4 @@
-# What is an Image?
+## What is an Image?
 
 In this section, we learn what is an image and what does it consist of.
 

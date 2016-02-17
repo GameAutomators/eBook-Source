@@ -1,12 +1,12 @@
-# Debugging in MATLAB
+### Debugging in MATLAB
 
 In this section, we will learn the basics of debugging and how we can debug in MATLAB.
 
-### What is Debugging?
+#### What is Debugging?
 
 Debugging is the process of stopping the execution of the code at a specific point so that you can analyse the state of the code there to find the mistakes. This is a very important feature of MATLAB that you have to understand and helps you save a lot of time while you have to find the mistake in your code. When the code stops the execution at a specific point, you can look at the values of all the variables there and see if everything's good.
 
-### Breakpoints
+#### Breakpoints
 
 You can click on the margin left to the line numbers in MATLAB to create a breakpoint. The breakpoint is the point where you code stops executing. 
 
