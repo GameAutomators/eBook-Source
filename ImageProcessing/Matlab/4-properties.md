@@ -2,25 +2,14 @@
 
 In this section, we will learn how we can use the function `regionprops` in MATLAB to detect various properties of objects that can be detected using steps in the previous sections. The input to the `regionprops` function is a binary image, with the object marked in white and the background marked in black.
 
-#### regionprops
-Measure properties of image regions. This command creates a ‘struct’ data-type variable in which it stores three fields for every region i.e.
-	
-a) Area
-b) Centroid
-c) Bounding Box
+This command creates a 'struct' variable in which it stores various properties for every region. The default properties are `Area`, `Centroid`, `BoundingBox`. The function also allows extracting a wide range of other properties that can be found in the MATLAB help or by typing in `doc regionprops` in the MATLAB command window.
 
-The image which is to be passed in ‘regionprops’ must be a binary image.
+Here's the syntax for using the function `regionprops`.
 
-**Syntax**
+```MATLAB
+% Code to extract default properties of objects
+Stats = regionprops(out2);
 
-*variable_name = regionprops (image)*
-
-*variable_name = regionprops (image, field)*
-
-**Example**
-
-*Stats = regionprops (bi_3)*
-
-*Stats = regionprops (bi_3, Centroid)*
-
-It returns measurements for the set of properties specified by properties for each connected component (object) in the binary image. ‘Stats’ is a struct array containing a struct for each object in the image. We can use regionprops on contiguous regions and discontiguous regions as well.Suppose if we need to calculate only a specific field then we can give it as a parameter.
+% Code to extract only centroids of objects
+Stats = regionprops(out2, 'Centroid');
+```
