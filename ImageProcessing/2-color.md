@@ -1,4 +1,4 @@
-# Types of Images
+## Types of Images
 
 The images are classified into three main categories which are mentioned below.
 - Binary Image
