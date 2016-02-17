@@ -8,60 +8,54 @@ Below are a few of the funtions functions that you can use for post enhancement 
 * Filling holes
 * Removing small objects
 
-### Object detection
+Let us learn about each of them now. Please understand that the definition provided here are over simplified for easier understanding. If you want to learn more in detail, take a course on Image Processing.
 
-In this section, we will learn how we can use 
+#### Dilation
 
-Let us learn about each of them in detail now.
+Dilation is the process of widening the object from the edges in the image. It can be used when the size of the binary image is smaller than the actual object. Dilation can help make the object size bigger. Here's the syntax for dilation of an image one time.
 
-#### imfill
+```MATLAB
+out2 = bwmorph(out, 'dilate'); % Dilating the image once
+```
 
-Fill image regions and holes.
+You can also dilate an image multiple times by using an additional parameter as shown below.
 
-**Syntax**
+```MATLAB
+n = 10;
+out2 = bwmorph(out, 'dilate', n); % Dilating the image 'n' times
+```
 
-*variable_name = imfill (image, ‘holes’)*
+#### Erosion
 
-**Example**
+Erosion is the process of thining the object from the edges in the image. It can be used when the size of the binary image is larger than the actual object. Erosion can help make the object size smaller and filter out small object that have been unintentionally detected. Here's the syntax for erosion of an image one time.
 
-*bi_2 = imfill (bi, ‘holes’)*
+```MATLAB
+out2 = bwmorph(out, 'erode'); % Eroding the image once
+```
 
-It fills holes in the binary image ‘bi’. In this a hole is a set of background pixels that cannot be reached by filling in the background from the edge of the image.
+You can also erode an image multiple times by using an additional parameter as shown below.
 
-
-#### Dilate the Image
-Dilates the image according to the given parameter.
-
-**Syntax**
-
-*variable_name = bwmorph (image, ‘dilate’, parameter)*
-
-**Example**
-
-*bi_3 = bwmorph (bi_2, ‘dilate’, 7)*
-
-It will dilate the binary image ‘bi_2’ by 7 times. Usually dilation means smoothing the edges of a region. Here we can use ‘imdilate’ command instead of ‘bwmorph’ to dilate the objects / regions.
+```MATLAB
+n = 10;
+out2 = bwmorph(out, 'erode', n); % Eroding the image 'n' times
+```
 
 
-#### regionprops
-Measure properties of image regions. This command creates a ‘struct’ data-type variable in which it stores three fields for every region i.e.
-	
-a) Area
-b) Centroid
-c) Bounding Box
+#### Filling holes
 
-The image which is to be passed in ‘regionprops’ must be a binary image.
+Holes are black pixels in the image which are completely covered in all directions by white pixels. In other words, hole is a set of pixels that cannot be reached by filling background from edge of image. The `imfill` function can be used to fill the holes. An example of how it can be used is shown below.
 
-**Syntax**
+```MATLAB
+out2 = imfill(out, 'holes'); % Filling holes
+```
 
-*variable_name = regionprops (image)*
+#### Removing small objects
 
-*variable_name = regionprops (image, field)*
+Small object in an image can be removed by using the following function. The size of the object less than which have to be eliminated must be mentioned as one of the parameters for the function.
 
-**Example**
+```MATLAB
+size = 100;
+out2 = bwareaopen(out, size); % removing object with area less than size
+```
 
-*Stats = regionprops (bi_3)*
-
-*Stats = regionprops (bi_3, Centroid)*
-
-It returns measurements for the set of properties specified by properties for each connected component (object) in the binary image. ‘Stats’ is a struct array containing a struct for each object in the image. We can use regionprops on contiguous regions and discontiguous regions as well.Suppose if we need to calculate only a specific field then we can give it as a parameter.
+Once we have enhance the image properly, we need to have only the object (or objects) of interest left in the image. We will learn how to find the properties of these objects in the next section.
