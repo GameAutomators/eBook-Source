@@ -13,9 +13,10 @@
     * [Basics of Color](ImageProcessing/2-color.md)
     * [Image Processing Techniques](ImageProcessing/3-processing.md)
         * [Basic Commands](ImageProcessing/Matlab/1-basic.md)
-        * [Image Thresholding](ImageProcessing/Matlab/2-thresholding.md)
-        * [Analysis](ImageProcessing/Matlab/3-analysis.md)
-        * [Debugging](ImageProcessing/Matlab/4-debugging.md)
+        * [Thresholding](ImageProcessing/Matlab/2-thresholding.md)
+        * [Enhancement](ImageProcessing/Matlab/3-enhancement.md)
+        * [Properties](ImageProcessing/Matlab/4-properties.md)
+        * [Debugging](ImageProcessing/Matlab/5-debugging.md)
 
 * [Electronics](Electronics/README.md)
     * [Basic Electronics](Electronics/1-basics.md)
