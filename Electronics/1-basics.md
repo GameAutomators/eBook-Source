@@ -6,7 +6,9 @@ If you are a beginner, this video series on YouTube is a great way to start- "Bu
 
 Link: https://www.youtube.com/playlist?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Next, we explain a simple circuit that is used very commonly while trying to solve mobile games.
 
