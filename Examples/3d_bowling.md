@@ -1,32 +1,35 @@
-# 3D  Bowling
+## 3D  Bowling
 
-##### Game Description
-This is a very popular 3D bowling game on the Google play store. This game has good graphics and rendering which makes it look good. The task of this game is to knock out as many balls as possible in a throw. You can throw the ball by swiping across the screen.
+### Game Description
+
+In this game, the task of this player is to knock out as many balls as possible in a throw. You can throw the ball by swiping across the screen.
 
 **Playstore Link:** [3D Bowling](https://play.google.com/store/apps/details?id=com.threed.bowling&hl=en)
+
 ![playstore image](/Images/3dbowlingps.png)
 ![game](/Images/3dbowlingim.png)
-           
 
 **Difficulty Level:** Easy
 
-##### Overview
+### Overview
 
-The system’s perfect move is identified by using Image processing, the further move is calculated by the algorithm and is marked in the concerned box using ADB Tool. This continues as the algorithm tries to win the game in the best way possible
+The system's optimal move is identified by just trial and error. It's observed that a swipe across the center of the screen is the best way to drop many pins.
 
-##### Requirements
- Computer with MATLAB, ADB Tool and required drivers set up.
-An Android Device with the ‘3D Bowling’ game installed on it. (Turn on the Developer options for better visualization)
+### Requirements
+
+Computer with MATLAB, ADB Tool and required drivers set up.
+An Android Device with the '3D Bowling' game installed on it. (Turn on the Developer options for better visualization)
 USB data transfer cable
 
-
-##### Block Diagram
+### Block Diagram
 ![image](/Images/BlockDiagram.png)
 
 
-##### Tutorial
+### Tutorial
 
-**Step 1: Using ADB Tool to capture screenshot**
+**Step 1: Swipe across the screen**
+
+**Step 2: Wait**
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
 
