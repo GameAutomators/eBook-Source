@@ -29,28 +29,22 @@ USB data transfer cable
 
 **Step 1: Swipe across the screen**
 
+A swipe across the screen can be simulated by using the following command. Notice that the numbers for swipe could change depending on the screen resolution of the phone that you are using. These numbers are for a phone with resolution 720x1280.
+
+```MATLAB
+system('adb shell input swipe 360 1008 360 550');
+```
+
 **Step 2: Wait**
 
-The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
+We use a delay of 2 seconds for waiting for the animation of the swipe to be completed and ready for next throw. These two steps can be used in a loop to complete the whole game. 
 
-```MATLAB                      
-system(' adb shell screencap -p /sdcard/screen.png ');
+```MATLAB
+pause(2);
 ```
 
-The following command pulls it from the SD card of the android device into the working system following the path specified
-```MATLAB
-system(' adb pull /sdcard/screen.png ');
- ```
-
-The pulled image is stored in the form of a matrix of pixel values by the MATLAB
-
-**Step 2: Image processing**
-Once the screenshot is obtained, the centre point of the ball and the centre of the lane and these are taken as an input to the command and system has to make a simple swipe.
-
-**Step 3: Using ADB Tool to simulate swipe**
-The following command . makes a swipe operation on the screen with the co-ordinates mentioned as (x1, y1) and (x2, y2)This is used to simulate swipe at the appropriate points where we want to make a swipe.
-```MATLAB
-system(' adb shell input swipe x1 y1 x2 y2 ');
-```
+### Conclusions
 
 Ideally, the algorithm should be able to win each and every time because it’s playing the best move every time. But there is a random element that has been programmed into the game because of which the ideal move doesn’t always work.
+
+This is an inefficient way to solve the game. A better method would be to choose the swipe direction depending on the location of the balls present on the screen.
