@@ -1,53 +1,60 @@
-# 3D  Bowling
+## 3D  Bowling
 
-##### Game Description
-This is a very popular 3D bowling game on the Google play store. This game has good graphics and rendering which makes it look good. The task of this game is to knock out as many balls as possible in a throw. You can throw the ball by swiping across the screen.
+### Game Description
+
+In this game, the task of this player is to knock out as many balls as possible in a throw. You can throw the ball by swiping across the screen.
 
 **Playstore Link:** [3D Bowling](https://play.google.com/store/apps/details?id=com.threed.bowling&hl=en)
+
 ![playstore image](/Images/3dbowlingps.png)
 ![game](/Images/3dbowlingim.png)
-           
 
 **Difficulty Level:** Easy
 
-##### Overview
+You can see a demo video of the working of this game at the following link: https://youtu.be/fvfRw3w-E4s
 
-The system’s perfect move is identified by using Image processing, the further move is calculated by the algorithm and is marked in the concerned box using ADB Tool. This continues as the algorithm tries to win the game in the best way possible
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/fvfRw3w-E4s" frameborder="0" allowfullscreen></iframe>
+</div> 
 
-##### Requirements
- Computer with MATLAB, ADB Tool and required drivers set up.
-An Android Device with the ‘3D Bowling’ game installed on it. (Turn on the Developer options for better visualization)
-USB data transfer cable
+### Overview
 
+The system's optimal move is identified by just trial and error. It's observed that a swipe across the center of the screen is the best way to drop many pins.
 
-##### Block Diagram
+### Requirements
+
+- Computer with MATLAB, ADB Tool and required drivers set up.
+- An Android Device with the ‘Tic Tac Toe’ game installed on it. (Turn on the Developer options for better visualization)
+- USB data transfer cable
+
+### Block Diagram
+
 ![image](/Images/BlockDiagram.png)
 
+Please note that only the step 3 in the block diagram is being used for solving this game.
 
-##### Tutorial
+### Tutorial
 
-**Step 1: Using ADB Tool to capture screenshot**
+Here's the step-wise tutorial to automate the game.
 
-The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
+#### Step 1: Swipe across the screen
 
-```MATLAB                      
-system(' adb shell screencap -p /sdcard/screen.png ');
+A swipe across the screen can be simulated by using the following command. Notice that the numbers for swipe could change depending on the screen resolution of the phone that you are using. These numbers are for a phone with resolution 720x1280.
+
+```MATLAB
+system('adb shell input swipe 360 1008 360 550');
 ```
 
-The following command pulls it from the SD card of the android device into the working system following the path specified
+#### Step 2: Wait
+
+We use a delay of 2 seconds for waiting for the animation of the swipe to be completed and ready for next throw. These two steps can be used in a loop to complete the whole game. 
+
 ```MATLAB
-system(' adb pull /sdcard/screen.png ');
- ```
-
-The pulled image is stored in the form of a matrix of pixel values by the MATLAB
-
-**Step 2: Image processing**
-Once the screenshot is obtained, the centre point of the ball and the centre of the lane and these are taken as an input to the command and system has to make a simple swipe.
-
-**Step 3: Using ADB Tool to simulate swipe**
-The following command . makes a swipe operation on the screen with the co-ordinates mentioned as (x1, y1) and (x2, y2)This is used to simulate swipe at the appropriate points where we want to make a swipe.
-```MATLAB
-system(' adb shell input swipe x1 y1 x2 y2 ');
+pause(2);
 ```
+
+### Conclusions
 
 Ideally, the algorithm should be able to win each and every time because it’s playing the best move every time. But there is a random element that has been programmed into the game because of which the ideal move doesn’t always work.
+
+This is an inefficient way to solve the game. A better method would be to choose the swipe direction depending on the location of the balls present on the screen.
