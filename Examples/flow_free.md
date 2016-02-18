@@ -9,13 +9,13 @@ This is a single player game. The player has to connect the similar colors in su
 ![Playstore](/Images/playstore_flowfree.png)
 ![Image](/Images/flowfree.png)
 
+**Difficulty level:** Moderate
+
 You can see a demo video of the working of this game at the following link: https://youtu.be/kfxZCnNZfTU
 
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kfxZCnNZfTU" frameborder="0" allowfullscreen></iframe>
 </div> 
-
-**Difficulty level:** Moderate
 
 ### Overview
 
