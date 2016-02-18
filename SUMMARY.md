@@ -30,6 +30,7 @@
         * [Tic Tac Toe](Examples/tic-tac-toe2.md)
         * [Find The Difference](Examples/find_the_difference.md)
         * [Flow free](Examples/flow_free.md)
+        * [Unblock Me](Examples/unblockme.md)
     * [Using Electronics](Examples/circuits.md)
         * [Ready Steady Bang](Examples/ready_steady_bang.md)
         * [Piano Tiles](Examples/piano_tiles.md)
