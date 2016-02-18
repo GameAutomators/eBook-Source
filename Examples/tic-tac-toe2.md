@@ -12,6 +12,12 @@ This is a two-player game. The player and the system get alternative chances to 
 
 **Difficulty level**: Moderate
 
+You can see a demo video of the working of this game at the following link: https://youtu.be/Pf9bY_4C6gE
+
+<div class="row" style="text-align:center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pf9bY_4C6gE" frameborder="0" allowfullscreen></iframe>
+</div> 
+
 ### Overview
 
 The player starts at center point and the system's move is identified using image processing. We are calculating intersecting points for blank, O and X for each one of Nine Cell. The next move is calculated by the MinMax algorithm and is marked in the concerned box using ADB Tool. This continues as the algorithm tries to win the game in the best way possible
