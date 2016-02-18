@@ -25,7 +25,7 @@ The player starts at center point and the system's move is identified using imag
 
 ### Requirements
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the ‘Tic Tac Toe’ game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the 'Tic Tac Toe' game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable
 
 ### Block Diagram
@@ -37,6 +37,7 @@ The player starts at center point and the system's move is identified using imag
 Here's the step-wise tutorial to automate the game.
 
 #### Step 1: Using ADB Tool to capture screenshot
+
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
   
 ```
