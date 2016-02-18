@@ -27,7 +27,7 @@
 * [Example Games](Examples/README.md)
     * [Using Image Processing](Examples/adb.md)
         * [3D Bowling](Examples/3d_bowling.md)
-        * [Tic Tac Toe](Examples/tic_tac_toe.md)
+        * [Tic Tac Toe](Examples/tic-tac-toe2.md)
         * [Find The Difference](Examples/find_the_difference.md)
         * [Move](Examples/move.md)
     * [Using Electronics](Examples/circuits.md)

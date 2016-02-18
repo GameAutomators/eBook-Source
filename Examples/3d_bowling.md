@@ -23,17 +23,19 @@ The system's optimal move is identified by just trial and error. It's observed t
 
 ### Requirements
 
-Computer with MATLAB, ADB Tool and required drivers set up.
-An Android Device with the '3D Bowling' game installed on it. (Turn on the Developer options for better visualization)
-USB data transfer cable
+- Computer with MATLAB, ADB Tool and required drivers set up.
+- An Android Device with the ‘Tic Tac Toe’ game installed on it. (Turn on the Developer options for better visualization)
+- USB data transfer cable
 
 ### Block Diagram
+
 ![image](/Images/BlockDiagram.png)
 
+Please note that only the step 3 in the block diagram is being used for solving this game.
 
 ### Tutorial
 
-**Step 1: Swipe across the screen**
+#### Step 1: Swipe across the screen
 
 A swipe across the screen can be simulated by using the following command. Notice that the numbers for swipe could change depending on the screen resolution of the phone that you are using. These numbers are for a phone with resolution 720x1280.
 
@@ -41,7 +43,7 @@ A swipe across the screen can be simulated by using the following command. Notic
 system('adb shell input swipe 360 1008 360 550');
 ```
 
-**Step 2: Wait**
+#### Step 2: Wait
 
 We use a delay of 2 seconds for waiting for the animation of the swipe to be completed and ready for next throw. These two steps can be used in a loop to complete the whole game. 
 
