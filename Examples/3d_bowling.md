@@ -11,6 +11,12 @@ In this game, the task of this player is to knock out as many balls as possible 
 
 **Difficulty Level:** Easy
 
+You can see a demo video of the working of this game at the following link: https://youtu.be/fvfRw3w-E4s
+
+<div class="row" style="text-align:center;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/fvfRw3w-E4s" frameborder="0" allowfullscreen></iframe>
+</div> 
+
 ### Overview
 
 The system's optimal move is identified by just trial and error. It's observed that a swipe across the center of the screen is the best way to drop many pins.

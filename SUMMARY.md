@@ -27,7 +27,6 @@
 * [Example Games](Examples/README.md)
     * [Using Image Processing](Examples/adb.md)
         * [3D Bowling](Examples/3d_bowling.md)
-        * [Playing the song](Examples/playing_the_song.md)
         * [Tic Tac Toe](Examples/tic_tac_toe.md)
         * [Find The Difference](Examples/find_the_difference.md)
         * [Move](Examples/move.md)
@@ -36,6 +35,7 @@
         * [Piano Tiles](Examples/piano_tiles.md)
     * [Using Image Processing and Electronics](Examples/circuit_ip.md)
         * [Stick Hero](Examples/stick_hero.md)
+    * [Other Games](Examples/all_others.md)
 
 * [Acknowledgements](Acknowledgements/README.md)
     * [Contributors](Acknowledgements/contributors.md)
