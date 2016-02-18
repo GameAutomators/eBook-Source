@@ -1,52 +1,94 @@
-# Piano Tiles
+## Piano Tiles
 
-The game consists of tapping on the black tiles only.One need to see where are the black tiles moving and tapping on it as per the requirements.
+### Game Description
 
-##### Playstore Link: [Piano Tiles](https://play.google.com/store/apps/details?id=com.umonistudio.tile&hl=en)
+The game has tiles falling from the top of the screen. The player is expected to tap of the tiles (which are black in color) as quickly as possible without missing any.
+
+**Playstore Link:** [Piano Tiles](https://play.google.com/store/apps/details?id=com.umonistudio.tile&hl=en)
 
 ![Image](/Images/piano_tiles.jpg)
  
-#### Difficulty Level:
-Moderate
+**Difficulty Level:** Moderate
 
-#### Overview
-- Sensing color of the tile (Black or White)
-- Processing the color information and generating timing  for the touch (Arduino)
-- Simulating capacitive touch (Relays)
+You can see a demo video of the working of this game at the following link: https://youtu.be/TQtS-OKW5Yo
 
+<div class="row" style="text-align:center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TQtS-OKW5Yo" frameborder="0" allowfullscreen></iframe>
+</div> 
 
-#### Requirements
-- An Android Device with the ‘Piano Tiles’ game
+### Overview
+
+The color of the tile is sensed as black or white using LDR, and touch is simulated at appropriate locations on the screen using a logic programmed into the Arduino.
+
+### Requirements
+
+- An Android Device with the 'Piano Tiles' game
 - Arduino, Breadboard, 22k Resistor, LDR, Relay, Connecting wires, a conducting metal coin
 - Computer to program Arduino
 
-#### Circuit Diagram:
+### Circuit Diagram
+
 ![Piano Tiles Circuit](/Images/piano_tiles_circuit.png)
 
-#### Tutorial
+### Block Diagram
 
-##### Sensing:
-We use light dependent resistors (LDRs) to sense if the tiles are white or black.  Four LDRs are positioned over the screen each facing one tile. The LDRs have been connected to the back of the cardboard like this.
+![BlockDiagram](/Images/methods-2.jpg)
 
-The LDR resistance changes with the intensity of Light. Higher the intensity of light, lesser the resistance. LDR is placed in a Voltage divider circuit to produce a voltage proportional to its resistance.The LDRs are connected to the analog input pins of the Arduino as shown.
+### Tutorial
 
-Practically, this is how you would connect the circuit. You can check the [test_ldr code](https://github.com/psurya1994/arduino-plays-piano-tiles/blob/master/Code/test_ldr/test_ldr.ino) to see if the LDRs are working fine. When you run the code, you will get a high value from the LDR if it’s sensing black, else you get a low value.
+Here's the step-wise tutorial to automate the game.
 
+#### Step 1: Sensor placement
 
+The LDRs are placed like a grid at the locations where the tiles will be falling through. When a black tile appears at the LDRs, the output voltage changes appropriately that can be observed on the Arduino.
 
-##### Processing:
-Arduino reads the voltage drop across the LDR. Observe the voltage voltages for Black and White tiles, choose a suitable threshold voltage say Vt.  If  (V<Vt) larger the drop across LDR, larger the resistance, which implies a Black tile and vice versa. If found 
-Run the [test_relay code](https://github.com/psurya1994/arduino-plays-piano-tiles/blob/master/Code/test_touch/test_touch.ino) at this link to see if the electronic touch is simulated properly.
-tile is a Black one simulate touch corresponding to that tile. 
+#### Step 2: Touch simulation
 
-##### Touching:
-For this we have to understand how capacitive touch screens work. The electrodes apply a low voltage to the conductive layer creating a uniform electrostatic field. When a finger hits the screen a tiny electrical charge is transferred to the finger to complete the circuit creating a voltage drop at that point on the screen. The location of this voltage drop is recorded by the controller and this is how a capacitive touch screen works.
+The coins are placed on the screen and the output from the relay is connected to it. When the relay output is grounded, it simulates a touch on the screen and when it is open circuited, it withdraws the touch. Appropriate coins are activated depending on the input from the LDRs.
 
-We are going to use this concept, except that in the place of a finger, we use the ground pin on the arduino to transfer the charge on the screen. To have more surface area on the display of the screen, we use a coin.
+#### Step 3: Arduino code
 
-Relays are directly connected to the output pin of the Arduino. It is equivalent to a touch if the voltage given is high as there is a path for the current to flow to the ground. It is equivalent to not touching if the voltage given is low.
+Arduino reads the voltage drop across the LDR. Observe the voltage voltages for black and white tiles, choose a suitable threshold voltage say Vt.  
 
-##### Finishing Touch:
-Once you the connect the circuit and dump the code [main.ino](https://github.com/psurya1994/arduino-plays-piano-tiles/blob/master/Code/main/main.ino) at this link, your circuit should start working. If not, it is because the delays are not adjusted perfectly. Tweak the delay values in the code and it should work.
+If voltage is less than the threshold voltage, then there is larger the drop across LDR, larger the resistance, which implies a Black tile and vice versa.
 
-And you built a circuit that can play Piano Tiles better than any human in the world.
+We have simulate touch accordingly. The values of the delays can be tweaked to get the best result.
+
+```C
+int delay1 = 80;
+int delay2 = 75;
+
+if(analogRead(A5)<700) 
+{
+digitalWrite(4, HIGH);
+delay(delay2);
+digitalWrite(4, LOW);
+delay(delay1);
+
+}
+else if(analogRead(A4)<700)
+{
+digitalWrite(5, HIGH);
+delay(delay2);
+digitalWrite(5, LOW);
+delay(delay1);
+}
+else if(analogRead(A3)<700)
+{
+digitalWrite(6, HIGH);
+delay(delay2);
+digitalWrite(6, LOW);
+delay(delay1);
+}
+else if(analogRead(A2)<700)
+{
+digitalWrite(7, HIGH);
+delay(delay2);
+digitalWrite(7, LOW);
+delay(delay1);
+}
+```
+
+### Conclusions
+
+This way, you can build a circuit that can play the game Piano Tiles. This is a very interesting concept that can be applied over a wide range of other games.
