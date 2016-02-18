@@ -35,6 +35,8 @@ Please note that only the step 3 in the block diagram is being used for solving 
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game.
+
 #### Step 1: Swipe across the screen
 
 A swipe across the screen can be simulated by using the following command. Notice that the numbers for swipe could change depending on the screen resolution of the phone that you are using. These numbers are for a phone with resolution 720x1280.

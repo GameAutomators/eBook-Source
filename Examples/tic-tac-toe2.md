@@ -40,13 +40,13 @@ Here's the step-wise tutorial to automate the game.
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
   
-```
+```MATLAB
 system('adb shell screencap -p /sdcard/screen.png');
 ```
 
 The following command pulls it from the SD card of the android device into the working system following the path specified
 
-```
+```MATLAB
 system('adb pull /sdcard/screen.png');
 ```
   

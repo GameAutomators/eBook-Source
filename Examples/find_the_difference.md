@@ -33,17 +33,19 @@ The image is divided into two parts and the differences are detected by using th
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game.
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
   
-```
+```MATLAB
 system('adb shell screencap -p /sdcard/screen.png');
 ```
 
 The following command pulls it from the SD card of the android device into the working system following the path specified
 
-```
+```MATLAB
 system('adb pull /sdcard/screen.png');
 ```
   
@@ -60,7 +62,7 @@ The difference matrix is converted into a binary image and the differences are m
 
 The following command taps at the point on the screen with the co-ordinates mentioned as (x, y). This is used to simulate touch at the centroid of the differences.
 
-```
+```MATLAB
 system('adb shell input tap x y');
 ```
 
