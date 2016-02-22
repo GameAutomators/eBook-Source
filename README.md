@@ -25,3 +25,6 @@ This book is a contribution from the following amazing members of the community.
 * Sudheesh Singanamalla
 * Surya Penmetsa
 * Vamsi
+
+Thanks to:
+* Anand Rajagopalan
