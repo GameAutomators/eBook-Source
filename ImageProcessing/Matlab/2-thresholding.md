@@ -38,13 +38,13 @@ blue = img(:,:,3); % filters third layer
 
 #### Thresholding code in MATLAB
 
-The required region or object must satisfy the condition that it's pixel values vary in the limits defined above. That can be implement in one line in MATLAB using the following code.
+The required region or object must satisfy the condition that it's pixel values vary in the limits defined above. That can be implemented in one line in MATLAB using the following code.
 
 ```MATLAB
 out = red>redMin & red<redMax & blue>blueMin & ...
 	  blue<blueMax & green>greenMin & green>greenMax;
 ```
 
-`out` will be a binary image with required object marked in white and otehrs in black.
+`out` will be a binary image with required object marked in white and others in black.
 
 But please understand that this code cannot be applied to all images. It can be applied only when the object to be detected is of the different color from the rest. 

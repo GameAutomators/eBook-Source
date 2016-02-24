@@ -19,7 +19,7 @@ Typically in a binary image, black is represented by the value 0 and white is re
 
 ### Grayscale Image
 
-In a grayscale image, apart from having white and black; you can also have various shades of gray. For an 8-bit grayscale image, the value of each pixel varies from 0 to 255 where 0 represents pure black; 255 represents pur white; and all the values in between represent various shades of grey. The same is depicted in the image below for clear understanding.
+In a grayscale image, apart from having white and black; you can also have various shades of gray. For an 8-bit grayscale image, the value of each pixel varies from 0 to 255 where 0 represents pure black; 255 represents pure white; and all the values in between represent various shades of grey. The same is depicted in the image below for clear understanding.
 
 ![ColorImage](/Images/grayscale_image.jpg)
 
