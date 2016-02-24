@@ -18,6 +18,8 @@ Also, make sure that you accept RSA fingerprint message shown in the device when
 
 Download the files in the provided link. You should have these files in the directory that you are working, or you can add adb.exe to your path in environment variables.
 
+Link: http://forum.xda-developers.com/showthread.php?p=48915118
+
 **Step 4: Testing**
 
 To test whether ADB is working properly, connect your Android device to your computer using a USB cable and run the following command in the command prompt. This should list the 
