@@ -2,9 +2,11 @@
 
 Electronics deals with the use of circuits that involve various electrical components. Everything from the clock you see to find time to the smartphone in your hand connecting you to your friends every second are the applications of it. In this section, we will give a brief overview of the electronics that we need to get started with working on the book.
 
-If you are a beginner, this video series on YouTube is a great way to start- "Building Electronic Circuits" by The Motivated Engineer. It starts off by giving you an overview of the basics of the electronic components generally used and teaches you how to work on some cool projects such as infra red sensors and wearable circuits. Watching and practicing the circuits in the first six videos in this series would give you a decent level of understanding to continue reading the sections below. These videos are optional to watch for people who have worked on electronic circuits before.
+If you are a beginner, this video series on YouTube is a great way to start- "Building Electronic Circuits" by The Motivated Engineer. 
 
 Link: https://www.youtube.com/playlist?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs 
+
+It starts off by giving you an overview of the basics of the electronic components generally used and teaches you how to work on some cool projects such as infra red sensors and wearable circuits. Watching and practicing the circuits in the first six videos in this series would give you a decent level of understanding to continue reading the sections below. These videos are optional to watch for people who have worked on electronic circuits before.
 
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>

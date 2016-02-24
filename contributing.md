@@ -11,7 +11,7 @@
 
 ### Note: Never make a contribution from your `master` branch.
 
-1. Before starting to write, ensure that you've done `git pull upstream master` so that you're uptodate with the main content.
+1. Before starting to write, ensure that you've done `git pull upstream master` so that you're up to date with the main content.
 2. Checkout a new branch, this is like a copy of the content of the book so that you can make changes. `git checkout -b BranchName` where `BranchName` can be anything depending on your contribution. For example, if you're writing an article on arduino you can do `git checkout -b MyArdunioDocument`
 3. Once the content is written. Do `git add <filename>` and `git push origin BranchName`
 4. Then headover to github and send a pull request.
