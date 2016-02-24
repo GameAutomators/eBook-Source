@@ -2,7 +2,7 @@
 
 ### Game Description
 
-In this game,the player need to hold on the screen such that the stick that the man is holding increase its lenght such that the stick can be used to across the gap between two black pillars.
+In this game,the player need to hold on the screen such that the stick that the man is holding increase its length such that the stick can be used to across the gap between two black pillars.
 
 **Playstore Link:** [Stick Hero](https://play.google.com/store/apps/details?id=com.ketchapp.stickhero&hl=en)
  

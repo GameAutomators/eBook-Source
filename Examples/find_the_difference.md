@@ -68,4 +68,4 @@ system('adb shell input tap x y');
 
 ### Conclusions
 
-This way, the computer solves the game very quickly, the speed at which humans can only dream off. This algorithm is robust and work for a few other 'find the difference' games on the play store.
+This way, the computer solves the game very quickly, the speed at which humans can only dream off. This algorithm is robust and work for a few other find the difference games on the play store.

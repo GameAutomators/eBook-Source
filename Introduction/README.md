@@ -8,9 +8,9 @@ First let us look at some of the games that we will learn to solve in this book:
 * Tic Tac Toe
 * Piano Tiles
 
-We will learn three approaches in which we can automate the games. Do remember that these are just few of the approaches, and there are many other ways to automate.
+We will learn three approaches in which we can automate the games. Do remember that these are just a few of the approaches, and there are many other ways to automate.
 * Using Image Processing
 * Using Electronics
 * Using Image Processing and Electronics
 
-Let us learn how to setup adb tool which is used as communication between laptop and phone before learning about the different approaches mentioned above.
+Let us learn how to setup ADB tool which is used as communication between laptop and phone before learning about the different approaches mentioned above.

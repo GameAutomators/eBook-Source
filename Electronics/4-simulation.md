@@ -1,6 +1,6 @@
 ## Touch Simulation
 
-Simulating touch is one of the critical parts of any game. There are multiple ways in which we can simulating the touch. 
+Simulating touch is one of the critical parts of any game. There are multiple ways in which we can simulate the touch. 
 
 ### Mechanical
 
@@ -82,7 +82,7 @@ We should also make sure that there is enough contact between the wire from the 
 
 #### Debugging
 
-I must concede that getting the touch to work at first it hard. While using this circuit, try to have your phone in developer mode so that you exact understand when where the screen is being touched. 
+I must concede that getting the touch to work at first it hard. While using this circuit, try to have your phone in developer mode and tuen on the setting that says show touches so that you exactly understand when and where the screen is being touched. 
 
 If you circuit doesn't work directly, it's probably because the ground of your mobile and that of the circuit do not match. For overcoming this diffculty, you can try the following: make sure your circuit is not placed on an iron conductor, change the material used to increase the surface area of touch, try to plug both your circuit and the mobile into USB ports from the same computer, etc.,
 

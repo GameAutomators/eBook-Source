@@ -59,15 +59,15 @@ Once the screenshot is obtained, nine different points in the 9 boxes are chosen
 
 Depending on this information, we create a matrix 3x3 where 0 represents blank, 1 represents system's move and 2 represents the player's move.
 
-Now, we convert this in the form os a string with 0, 1 and 2's of length 9 and send it to the next step.
+Now, we convert this in the form of a string with 0, 1 and 2's of length 9 and send it to the next step.
 
 #### Step 3: Algorithm
 
-Minimax is a decision rule used in decision theory, game theory, statistics and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario. 
+Minmax is a decision rule used in decision theory, game theory, statistics and philosophy for minimizing the possible loss for a worst case (maximum loss) scenario. 
 
 Originally formulated for two-player zero-sum game theory, covering both the cases where players take alternate moves and those where they make simultaneous moves, it has also been extended to more complex games and to general decision-making in the presence of uncertainty.
 
-Matlab call the python script with command line argument of input string which returns the best move. If game overs it returns 9. The python code can be executed from MATLAB using the following commands.
+Matlab calls the python script with command line argument of input string which returns the best move. If game overs it returns 9. The python code can be executed from MATLAB using the following commands.
 
 ```MATLAB
 % inputstr is the string of 0s, 1s and 2s of length 9
