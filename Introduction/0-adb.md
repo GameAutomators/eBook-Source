@@ -22,17 +22,19 @@ Link: http://forum.xda-developers.com/showthread.php?p=48915118
 
 **Step 4: Testing**
 
-To test whether ADB is working properly, connect your Android device to your computer using a USB cable and run the following command in the command prompt. This should list the 
+To test whether ADB is working properly, connect your Android device to your computer using a USB cable and run the following command in the command prompt. This should list the devices.
+
 ```
 adb devices
 ```
 
 Also run the following command on MATLAB
+
 ```MATLAB
 system('adb devices')
 ```
 
-The output of the command should look similar to this if your Android device is connected properly and detected.
+The output of both the command should look similar to this if your Android device is connected properly and detected.
 
 ```C
 List of devices attached  

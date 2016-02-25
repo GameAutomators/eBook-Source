@@ -86,4 +86,4 @@ system(' adb shell input swipe x1 y1 x2 y2 100');
 
 ### Conclusions
 
-This way, the game flow free is automated. This code works well only till 10x10 blocks. For higher sizes, the code takes too much time and will be unable to solve.
+This way, the game flow free is automated. This code works well only till 10x10 blocks. For higher sizes, this implementation takes too much time.

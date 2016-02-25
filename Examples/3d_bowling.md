@@ -24,7 +24,7 @@ The system's optimal move is identified by just trial and error. It's observed t
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the ‘Tic Tac Toe’ game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the '3D bowling' game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable
 
 ### Block Diagram

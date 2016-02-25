@@ -9,7 +9,7 @@ Let us discuss each one of them now.
 
 ### Binary Image
 
-In a binary image, each of the pixels are either black or white. There is no other color, not even gray. Below is an example for a binary image.
+In a binary image, each of the pixels are either black or white. There is no other color. Below is an example for a binary image.
 
 ![ColorImage](/Images/binary_image.jpg)
 

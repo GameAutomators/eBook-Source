@@ -1,6 +1,6 @@
 # Preface
 
-Making learning fun is extremely important. Many of us would have played video games when we were young, and what kept us glued and excited was the desire to make a high score. How awesome would it be to build your own robots and algorithms that play these games? How exciting would it be to watch how your algorithm will make it through the level that you found very hard?
+Making learning fun is extremely important. Many of us would have played video games when we were young, and what kept us glued and excited was the desire to make a high score. How awesome would it be to build your own robots and algorithms that play these games? How exciting would it be to watch your algorithm making it through the level that you found very hard?
 
 This book is an attempt in that direction. It will introduce you on how to build systems and robots that can play mobile games. This approach will help you learn concepts of algorithms, electronics, image processing and machine learning; and have a lot of fun at the same time. 
 
@@ -50,15 +50,13 @@ We tried to cover the concepts that are relevant to solving mobile games in this
 
 ### What this book covers
 
-*Chapter 1, Introduction,* covers the basic idea of the approach that we are going to use to solve the games in this book.
+*Chapter 1, Introduction,* covers the overview of each approach that we are going to use to solve the games in this book.
 
-*Chapter 2, Electronics,* introduces the sensors that can be used to sense what's on the screen and the various ways to simulate touch. It also talks about how a microcontroller can be used in to program the sensors and the touch simulation part in an efficient way.
+*Chapter 2, Electronics,* introduces the sensors that can be used to sense what's on the screen and the various ways to simulate touch. It also talks about how a microcontroller can be used in to program the sensors and touch simulation.
 
 *Chapter 3, Image Processing,* explains what an image is actually made up of and how it can be analysed using different methods. It also teaches MATLAB commands that can be used for image processing.
 
-*Chapter 4, Different Methods of Automating,* covers three different ways of automating the mobile game- each of them has it's own advantages disadvantages. The method needs to be chosen based on the game that we intend to solve.
-
-*Chapter 5, Specific Examples,* demonstrates how the concepts and methods of solving that we have learnt earlier can be used to solve specific games.
+*Chapter 4, Example Games,* demonstrates how the concepts and methods of solving that we have learnt earlier can be used to solve specific games.
 
 ### Conventions
 
