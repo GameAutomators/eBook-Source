@@ -85,7 +85,7 @@ Creates axis in tiled positions. Whenever we need to display two or more images 
 
 `subplot(m, n, p)`
 
-It divides the current figure into an 'm x n' grid and creates an axes for a subplot in the position specified by 'p'. **MATLAB** numbers its subplots by row, such that the first subplot is the first column of the first row, the second subplot is the second column of the first row, and so on. If the axes already exists, then the 'subplot(m,n,p)' makes the subplot in position p the current axes.
+It divides the current figure into an 'm x n' grid and creates an axes for a subplot in the position specified by 'p'. **MATLAB** numbers its subplots by row, such that the first subplot is the first column of the first row, the second subplot is the second column of the first row, and so on. If the axes already exists, then the `subplot(m,n,p)` makes the subplot in position p the current axes.
 
 Example
 

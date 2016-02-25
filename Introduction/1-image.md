@@ -15,7 +15,7 @@ We can run the above steps in a loop to automate a game that needs repetition or
 ### Advantages of this approach
 - We can get direct screenshots of our android phone screen and hence accurate pixel values.
 - Since we access the locations on the screen through their coordinates, we get accurate touch and swipe.
-- Circuitry is not required.
+- There's no need to use an electronic circuit.
 - Complex algorithms can be implemented efficiently in MATLAB.
 - Everything happening on the screen is visible to us unlike in the case of electronic circuits where the screen could be covered with sensors.
 
