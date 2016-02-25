@@ -24,7 +24,7 @@ The image is divided into two parts and the differences are detected by using th
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the 'Find the differences' game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the 'Find the Differences' game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable
 
 ### Block diagram

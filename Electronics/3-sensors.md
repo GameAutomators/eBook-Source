@@ -31,7 +31,8 @@ This is how the LDR must be connected to the Arduino. This circuit diagram has b
 
 This is the code that you can use in Arduino to read the values from the LDR with the appropriate circuit. We will display the values returned by the LDR on the serial monitor so that we can observe the changes in the value returned in real time.
 
-Let's setup serial communication first.
+Serial communication is used for data exchange between devices through the serial port. Let's setup it up here between the computer and Arduino.
+
 ```C
 void setup()
 {
