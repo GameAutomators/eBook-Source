@@ -1,26 +1,28 @@
 ## Using Electronics and Image Processing
 
-In this method we will be using the concepts of electronics and image processing together to automate the game.The Basic concepts of image processing which we are going to use is described in detail in the next chapter of this book.
+In this method we will be using the concepts of electronics and image processing together to automate the game. The basic concepts of image processing which we are going to use is described in detail in the next chapter of this book.
 
 ### Approach
+
 ![image11](/Images/methods-3.png)
 
 *Fig.The image depicts the connection between the computer, microcontroller and the phone for game automation*
 
-We use a webcam which takes the pictures of the mobile screen and sends it to MATLAB so that it can be used for the next processing step.The MATLAB algorithm processes the image according to our need and generates the duration of touch and sends it to the microcontroller(Arduino here),which in turn is used to simulate the touch on the phone screen using certain circuits.
-For Example, In the game named piano tiles,our webcam will capture the image of the screen and send it to the laptop where we can separate the white and black tiles and accordingly we can send the information to the Arduino to simulate a touch on the particular area of the screen where the black tiles are present.
+We use a webcam which streams the video of the mobile screen into MATLAB which performs image processing according to our need and generates the duration of touch and sends it to the microcontroller (Arduino here), which is used to simulate the touch on the phone screen using certain circuits.
+
+For example, in the game 'Stick Hero', our webcam will capture the image of the screen and send it to the laptop where we can detect the pillars and the distace between them using image processing. Depending on the distance, we can send the information to the Arduino to simulate a touch for a specified time.
 
 
-### Advantages
-- This method is mostly used to solve more complex games for example- an  Android game Flappy Bird.
-- Faster than ADB tool .
+### Advantages of this approach
+
+- This method can be used to solve more complex games like 'Flappy Bird'.
+- Faster than ADB tool.
 - Debugging becomes easier.
-    
 
-### Disadvantages
-- In some Android games we notice that background changes after completion of a level, so image processing for such games becomes difficult.
+### Disadvantages of this approach
+
 - Complex circuits are required.
-- Since the amount of light affect the image taken by webcam, thus external conditions affects the working of the circuits.
+- Since external lighting influences the image captured by the webcam, we may have to change the algorithm accordingly each time.
 - Setting the touch part of circuit becomes difficult.
 
 We can enhance the efficiency of this method by using OpenCV instead of MATLAB.

@@ -6,7 +6,7 @@ This section lists the various electronic sensors that can be used detect the di
 
 ![LDR basic](/Images/HDR_Enhancer_1.jpg)
 
-An LDR is commonly used for wide range of applications because of it provides decently accurate information of the external lighting and at the same time economical. It is basically a light controlled resistor- which means that the resistance across it's terminals changes according to the light incident on it. This can be used in projects where you want to sense the lighting in the surrondings. One of it's common applications is to be used to turn on lights automatically in the evening. A video tutorial on how you can build such a circuit is below.
+An LDR is commonly used for wide range of applications because of it provides decently accurate information of the external lighting and at the same time economical. It is basically a light controlled resistor- which means that the resistance across its terminals changes according to the light incident on it. This can be used in projects where you want to sense the lighting in the surrondings. One of its common applications is to be used to turn on lights automatically in the evening. A video tutorial on how you can build such a circuit is below.
 
 Link: https://youtu.be/_uglvulpofQ 
 
@@ -15,7 +15,7 @@ Link: https://youtu.be/_uglvulpofQ
 
 #### Working
 
-It works on the principle of photo conductivity. When light is incident on top of a LDR, the elctronics and holes are seperated- hence the conductivity increases i.e., resistivity decreases. When the light is not incident, they are very few freely moving holes and electrons- so the conductivity is less i.e., the resistivity is high.
+It works on the principle of photo conductivity. When light is incident on top of a LDR, the electrons and holes are seperated- hence the conductivity increases i.e., resistivity decreases. When the light is not incident, they are very few freely moving holes and electrons- so the conductivity is less i.e., the resistivity is high.
 
 #### Circuit
 
@@ -23,7 +23,7 @@ Assume that LDR is connected at Z1 and Z2 is a resistor. As discussed in the pre
 
 ![LDR circuit](/Images/Voltage_divider.png)
 
-This is how the LDR must be connected to the Arduino. This circuit diagram has been created using fritzing.
+This is how the LDR must be connected to the Arduino. This circuit diagram has been created using Fritzing. For more information about Fritzing, visit: http://fritzing.org/
 
 ![LDR arduino](/Images/ldr_arduino.png)
 
@@ -31,7 +31,8 @@ This is how the LDR must be connected to the Arduino. This circuit diagram has b
 
 This is the code that you can use in Arduino to read the values from the LDR with the appropriate circuit. We will display the values returned by the LDR on the serial monitor so that we can observe the changes in the value returned in real time.
 
-Let's setup serial communication first.
+Serial communication is used for data exchange between devices through the serial port. Let's setup it up here between the computer and Arduino.
+
 ```C
 void setup()
 {
@@ -99,12 +100,12 @@ This threshold value could change depending on the ambient light in the room. So
 
 #### Examples of application
 
-An LDR can be used to detect the different of bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
+An LDR can be used to detect the difference between bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
 
 This is used in the games Piano Tiles and Ready Steady Bang because the primary concept in this games is the identify the difference in intensities of light on screen.
 
 ### RGB Sensors
 
-Instead of an LDR, we can also use an RGB sensor to differentiate colors on the screen. The additional advantage of the RGB sensor from the LDR is that, it can know the exact color on the screen unlike LDR with can you find the brightness of the color coming from the screen.
+Instead of an LDR, we can also use an RGB sensor to differentiate colors on the screen. The additional advantage of the RGB sensor from the LDR is that, it can know the exact color on the screen unlike LDR with which you can find the brightness of the color coming from the screen.
 
 An RGB sensor can clearly differentiate between blue and green, whereas the same would be hard for an LDR to do.

@@ -10,18 +10,19 @@ This is a way to automate the mobile game without using any internal functions o
 
 The microcontroller senses the inputs from a sensor that is used to detect what's on the screen, analyses the data using a logic that has been programmed into it and sends appropriate commands to the touch circuitry. 
 
-Refer to the electronics chapter in the book to learn in detail about who the sensing and touching circuits work.
+Refer to the *Electronics* chapter in the book to learn in detail about how the sensing and touching circuits work.
 
-### Advantages
-- Since ADB tool processing is slow as discussed earlier, so it become difficult to solve time bounded game. This problem can be overcome by using electronics circuits.
+### Advantages of this approach
 
-### Disadvantages
+- Since ADB tool processing is slow as discussed earlier, it becomes difficult to solve time bounded game. This problem can be overcome by using electronic circuits.
+
+### Disadvantages of this approach
+
 - External condition affects the working of the circuits.
 - Setting up the touch part of the circuit takes some time.
-- It becomes difficult to debug the circuit.
-- It's difficult to write complicated algorithms using Arduino.
-- Not many games can be solved because we can not implement Machine Learning to Arduino.
-- Circuit required to simulate swipe becomes a bit difficult.
+- It's difficult to implement complex algorithms on Arduino.
+- Circuit required to simulate swipe is complicated and involves mechanical parts.
 
 ### Games which can be solved using this method
-Piano Tiles and Ready Steady Bang are some Android game which can be solved using this method because in these we just need to detect a particular word or a small part using sensors and then simulating touch using electronic circuits.
+
+'Piano Tiles' and 'Ready Steady Bang' can be solved using this method because in these we just need to detect a intensity change on a small part of the screen using sensors and then simulate touch using electronic circuits.

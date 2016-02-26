@@ -19,7 +19,7 @@ You can see a demo video of the working of this game at the following link: http
 
 ### Overview
 
-First, using image processing all the blocks alignment and position is detected using image processing in MATLAB. Using an algorithm, the game is solved and blocks are moved to free the red block. The swipes on the screen are simulated using adb tool.
+First, using image processing all the blocks alignment and position is detected using image processing in MATLAB. Using breadth first search algorithm, the game is solved and blocks are moved to free the red block. The swipes on the screen are simulated using adb tool.
 
 ### Requirements
 

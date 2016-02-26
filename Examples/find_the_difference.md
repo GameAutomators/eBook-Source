@@ -24,7 +24,7 @@ The image is divided into two parts and the differences are detected by using th
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the 'Find the differences' game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the 'Find the Differences' game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable
 
 ### Block diagram
@@ -68,4 +68,4 @@ system('adb shell input tap x y');
 
 ### Conclusions
 
-This way, the computer solves the game very quickly, the speed at which humans can only dream off. This algorithm is robust and work for a few other 'find the difference' games on the play store.
+This way, the computer solves the game very quickly, the speed at which humans can only dream off. This algorithm is robust and work for a few other find the difference games on the play store.

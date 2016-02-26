@@ -2,7 +2,7 @@
 
 Arduino is an open-source, easy to use platform used for various electronics projects. It has a physical programmable circuit board. The capabilities of Arduino depends on the capabilities of the the microcontroller it's holding. 
 
-There are various types of Arduino's available in the market and the most popular one is called Arduino UNO. Each of the Arduino's capabilities depend on the core microcontroller on it's circuit board. For instance, Arduino UNO using ATMega328P and hence various specs depend on it.
+There are various types of Arduino's available in the market and the most popular one is called Arduino UNO. Each of the Arduino's capabilities depend on the core microcontroller on it's circuit board. For instance, Arduino UNO uses ATMega328P and hence various specs depend on it.
 
 All the Arduino is doing is- it reads the inputs from the sensors, and takes action depending on the logic that has been programmed into it.
 
