@@ -2,31 +2,40 @@
 
 <p style="text-align:center;">This book is a unique work in Game Algorithms, Electronics, Image Processing and Machine Learning</p>
 
-Visit this link for video version of the book: https://www.youtube.com/playlist?list=PLmcMMZCV897oPkDdoGgwKFspHBPh-bGGn
+You can use this video series as an add-on for the book (optional): https://www.youtube.com/playlist?list=PLmcMMZCV897oPkDdoGgwKFspHBPh-bGGn
 
 <hr>
 
-This book is a contribution from the following amazing members of the community.
+We thank the following amazing members of the community for their contributions to the book.
 
-* Aarti
+* Aarti Barai
 * Aman Bhargava
-* Aroma
+* Aroma Rodrigues
 * Devendra Patil
-* Karthik
-* Monica
+* Karthik Shathiri
+* Monica Tiyyagura
 * Naveen Indala
 * Nisha Jacob
 * Nishi
 * Piyush Agarwal
 * Piyush Kashyap
-* Prathiba
-* Raghavendra
-* Satya
-* Shivani
-* Spandan
+* Satya Sree
+* Shivani Shukla
+* Spandan Pandey
 * Sudheesh Singanamalla
 * Surya Penmetsa
-* Vamsi
+* Chandra Vamsi S S
+* Satya Kesav
+* Sriram Kovela
+* Bharath Kumar
+* Vinay Kant
+* Rajmani Arya
+* Milan Chatterjee
+* Chetan Rathore
+* Surendra Gurjar
+* Anirudh Deshpande
+* Milind Sheth
+* Sreetam Das
 
 Reviewers:
 * Nikhilendra Gudisa
