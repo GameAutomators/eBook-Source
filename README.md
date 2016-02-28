@@ -6,6 +6,8 @@ You can use this video series as an add-on for the book (optional): https://www.
 
 <hr>
 
+Author: Surya Penmetsa
+
 We thank the following amazing members of the community for their contributions to the book.
 
 * Aarti Barai
@@ -23,7 +25,6 @@ We thank the following amazing members of the community for their contributions 
 * Shivani Shukla
 * Spandan Pandey
 * Sudheesh Singanamalla
-* Surya Penmetsa
 * Chandra Vamsi S S
 * Satya Kesav
 * Sriram Kovela
