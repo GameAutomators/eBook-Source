@@ -27,8 +27,8 @@ Here's a sample of the values.
 
 ```MATLAB
 %% Choosing the pixel values
-redMin = 196; redMax = 255;
-greenMin = 163; greenMax = 255;
+redMin = 200; redMax = 255;
+greenMin = 170; greenMax = 255;
 blueMin = 0; blueMax = 15;
 ```
 
