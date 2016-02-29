@@ -4,7 +4,7 @@ Simulating touch is one of the critical parts of any game. There are multiple wa
 
 ### Mechanical
 
-The touch can be simulated by a mechanical system consisting of a stylus connected to servo motor. The stylus must be connected to the servo in such a way that when the servo rotates, the stylus hits the screen. 
+The touch can be simulated by a mechanical system consisting of a stylus connected to servo motor. A typical servo motor is a rotatory actuator that allows precise control of angle. The stylus must be connected to the servo in such a way that when the servo rotates, the stylus hits the screen. 
 
 This is the code that you can use to control the touch in this case. Let us assume that the mechanical arrangement is adjusted in such a way that the angle when the stylus touches the screen is 0 degrees and that the stylus doesn't touch the screen for 30 degrees.
 

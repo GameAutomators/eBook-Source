@@ -88,7 +88,7 @@ The resulting images are shown below.
 
 #### imrotate
 
-This command can be used rotate the image by given angle (in degrees) in a counterclockwise direction around its center point. To rotate the image clockwise, specify a negative value for angle. 'imrotate' makes the output image large enough to contain the entire rotated image. Here's the syntax for doing the same.
+This command can be used to rotate the image by given angle (in degrees) in a counterclockwise direction around its center point. To rotate the image clockwise, specify a negative value for angle. 'imrotate' makes the output image large enough to contain the entire rotated image. Here's the syntax for doing the same.
 
 `variable_name = imrotate(image, degrees)`
 
@@ -125,4 +125,4 @@ subplot(2, 2, 4), imshow (e)
 	![rotate MATLAB](/Images/img-subplot.png)
 </div>
 
-'subplot(2, 2, 1)' will divide the figure into a 2 x 2 matrix. '1' is representing the position where the image 'a' is going to be displayed since there are 4 positions.
+`subplot(2, 2, 1)` will divide the figure into a 2 x 2 matrix. '1' is representing the position where the image 'a' is going to be displayed since there are 4 positions.

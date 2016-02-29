@@ -102,4 +102,4 @@ figure, imshow(out2)
 	![rotate MATLAB](/Images/img-remove.png)
 </div>
 
-Once we have enhance the image properly, we need to have only the object (or shapes) of interest left in the image. We will learn how to find the properties of these shapes in the next section.
+Once we have enhanced the image properly, we will have only the object(s) of interest left in the image. We will learn how to find the properties of these shapes in the next section.

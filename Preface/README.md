@@ -46,7 +46,7 @@ Once people learn building machines for game playing, they can expand into other
 
 So what should you know in order to get started? This book has been carefully designed to help readers with or without experience in electronics and image processing.
 
-We tried to cover the concepts that are relevant to solving mobile games in this book. In case you want to learn more, we have provided links at relevant places. 
+We covered concepts that are only relevant to solving mobile games in this book. In case you want to learn more, we have provided links at relevant places so that you can learn more. 
 
 ### What this book covers
 

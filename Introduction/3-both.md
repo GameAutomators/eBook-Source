@@ -1,6 +1,6 @@
 ## Using Electronics and Image Processing
 
-In this method we will be using the concepts of electronics and image processing together to automate the game. The basic concepts of image processing which we are going to use is described in detail in the next chapter of this book.
+In this method we will be using the concepts of electronics and image processing together to automate the game. The concepts of image processing  and electronics which we are going to use here is discussed in the following chapters.
 
 ### Approach
 

@@ -1,6 +1,6 @@
 ## Using Electronics
 
-This is a way to automate the mobile game without using any internal functions of Android library by using clever electronic circuitry placed on top of your phone. 
+This is a way to automate the mobile games by using clever electronic circuitry placed on top of your phone. 
 
 ### Approach
 
@@ -18,7 +18,7 @@ Refer to the *Electronics* chapter in the book to learn in detail about how the 
 
 ### Disadvantages of this approach
 
-- External condition affects the working of the circuits.
+- External conditions such an ambient light might affect the working of the circuits.
 - Setting up the touch part of the circuit takes some time.
 - It's difficult to implement complex algorithms on Arduino.
 - Circuit required to simulate swipe is complicated and involves mechanical parts.
