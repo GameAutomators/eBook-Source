@@ -6,9 +6,7 @@ You can use this video series as an add-on for the book (optional): https://www.
 
 <hr>
 
-Author: Surya Penmetsa
-
-We thank the following amazing members of the community for their contributions to the book.
+Written by **Surya Penmetsa** and the following amazing members of the community.
 
 * Aarti Barai
 * Aman Bhargava
@@ -41,6 +39,7 @@ We thank the following amazing members of the community for their contributions 
 Reviewers:
 * Nikhilendra Gudisa
 * Sandeep Nadella
+* Sharan Erukulla
 
 Thanks to:
 * Anand Rajagopalan

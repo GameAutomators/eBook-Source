@@ -1,6 +1,6 @@
 ## Sensors for automating games
 
-This section lists the various electronic sensors that can be used detect the differences on the phone screen. The common and main idea for all of these sensors is that it senses the light that is following and somehow convert it into an understandable format. For examples, LDR converts the change in light intensity that is falling on top of it. 
+This section lists the various electronic sensors that can be used to detect the differences on the phone screen. The common and main idea for all of these sensors is that it senses the light and convert it into an understandable format. For example, LDR converts the change in light intensity that is falling on top of it into change in resistance. 
 
 ### Light Dependent Resistor(LDR)
 
@@ -94,13 +94,13 @@ void loop()
 
 #### Sensor protection from ambient light
 
-This threshold value could change depending on the ambient light in the room. So, we use a shield for the LDR to keep it. Shielding is optional but we suggest you to do that. This will make the values that LDR returns consistent irrespective of the external light. We make sure that the color of the shield is dark so that it would block more light.
+This threshold value could change depending on the ambient light in the room. So, we use a cover (or shield) for the LDR to avoid that light to fall on the screen. Shielding is optional but we suggest you to do that. This will make the values that LDR returns consistent irrespective of the external light. We make sure that the color of the shield is dark so that it would block more light.
 
-![LDR shield](/Images/ldr_shield.jpg)
+![LDRshield](/Images/ldr_shield.jpg)
 
 #### Examples of application
 
-An LDR can be used to detect the difference between bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
+An LDR can be used to differentiate between bright and dark regions on the screen. If you have a dark region, the LDR has high resistance and vice-versa. This is appropriately reflected in the values sensed by the microcontroller so that appropriate action can be taken.
 
 This is used in the games Piano Tiles and Ready Steady Bang because the primary concept in this games is the identify the difference in intensities of light on screen.
 

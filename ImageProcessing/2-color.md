@@ -51,3 +51,4 @@ By using the above concept, any image can be represented as a combination of thr
 
 ![ColorImage](/Images/rgb_example.png)
 
+*Fig. The three color layers of the image are shown on the right in grayscale form*

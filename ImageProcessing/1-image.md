@@ -1,10 +1,10 @@
 ## What is an Image?
 
-In this section, we learn what is an image and what does it consist of.
+In this section, we learn what is an image and what does it consists of.
 
 ### Basics
 
-Below is the image of Lena that we come across very often in image processing. New algorithms are experimented on this image as it consists of diverse chunks like- curly hair, plain background, human face, etc.,
+Below is the image of Lena which we use often in image processing. New algorithms are experimented on this image as it consists of diverse chunks like- curly hair, plain background, human face, etc.,
 
 ![ImageExample](/Images/WhatIsAnImage.png)
 
@@ -12,7 +12,7 @@ Below is the image of Lena that we come across very often in image processing. N
 
 When you zoom very closely into the image, you will start to realize that the image is made up of discrete squares as shown in Fig. (b). Each of the discrete square have their own color. These discrete sqares are called picture elements, or in short **pixels**. 
 
-Every image is created similarly by a two dimensional array of discrete square which have specific colors.  These small discrete squares (or blocks) come together to form a bigger image. The image in Fig. (a) has a high resolution (512x512) and hence you are unable to see the discrete square with your eye directly. There are so many small blocks such that our eye renders the image to be continous.
+Every image is created similarly by a two dimensional array of discrete square which have specific colors.  These small discrete squares (or blocks) come together to form a bigger image. The image in Fig. (a) has a high resolution (512x512) and hence you are unable to see the discrete square with your eye directly. There are so many small blocks because of which our eye renders the image to be continous.
 
 ### Image Resolution
 
