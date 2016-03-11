@@ -13,9 +13,11 @@ In this game, the task of this player is to knock out as many balls as possible 
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/fvfRw3w-E4s
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/fvfRw3w-E4s" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 
