@@ -4,5 +4,8 @@
         "ga": {
             "token": "UA-74194055-1"
         }
+    },
+    "pdf": {
+    	"pageNumbers": true
     }
 }
