@@ -10,23 +10,29 @@ I’m Surya Penmetsa, an ECE graduate from NIT Warangal class of 2015. I started
 
 I uploaded the video of one of the robots that could play the game 'Piano Tiles' on YouTube and it went viral. More than 200,000 people watched it. Video link: https://youtu.be/2TJ7itil1cc
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/2TJ7itil1cc" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endif %}
 
 On popular demand, I also uploaded a tutorial video for the same, and it again got over 200,000 views. This shows the excitement and interest of people to solve games in an innovative manner. Video link: https://youtu.be/8hlQ0MiowN8
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/8hlQ0MiowN8" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endif %}
 
 I decided it was time for me to take the work to the next level. With the help of The Lakshya Foundation and Innovation Garage, I teamed up with students from NIT Warangal during the winter vacation in December 2015, and Hackathon 5.0 in January 2016 to solve more games.
 
 Here's a video of overview of the winter internship at NIT Warangal: https://youtu.be/iDJW98c7uhg
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/iDJW98c7uhg" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endif %}
 
 Most students had prior experience with electronic circuits, but very few knew image processing. I guided them through short lectures and provided them with online resources where they could learn further. They worked very hard, and grasped all required concepts very quickly. Together, we wrote algorithms for various games which beat human-level-performance. 
 
@@ -47,6 +53,10 @@ Once people learn building machines for game playing, they can expand into other
 So what should you know in order to get started? This book has been carefully designed to help readers with or without experience in electronics and image processing.
 
 We covered concepts that are only relevant to solving mobile games in this book. In case you want to learn more, we have provided links at relevant places so that you can learn more. 
+
+### Note
+
+This book can be used to learn how fun electronics, image processing and machine learning are, but it cannot be independently used as a guide for any of these areas.
 
 ### What this book covers
 

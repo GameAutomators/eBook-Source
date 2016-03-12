@@ -10,8 +10,9 @@ An LDR is commonly used for wide range of applications because of it provides de
 
 Link: https://youtu.be/_uglvulpofQ 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
-
+{% if output.name == "ebook" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_uglvulpofQ" frameborder="0" allowfullscreen></iframe>
+{% endif %}
 
 #### Working
 

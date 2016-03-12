@@ -14,7 +14,7 @@ Refer to the *Electronics* chapter in the book to learn in detail about how the 
 
 ### Advantages of this approach
 
-- Since ADB tool processing is slow as discussed earlier, it becomes difficult to solve time bounded game. This problem can be overcome by using electronic circuits.
+- It's very fast unlike the previous approach. This speed is very important for solving many games.
 
 ### Disadvantages of this approach
 
