@@ -68,9 +68,9 @@ This command resizes an image according to the specified scale, or to a specifie
 `variable_name = imresize(image, output_size)`
 
 ```MATLAB
-c = imresize(a, 0.5);
+c = imresize(a, 0.5); % resizing the image to half
 figure, imshow(c)
-d = imresize(a, [150 150]);
+d = imresize(a, [150 150]); % resizing image to give dimensions
 figure, imshow(d)
 ```
 The resulting images are shown below.
@@ -113,4 +113,4 @@ subplot(2, 2, 4), imshow (e)
 
 ![rotate MATLAB](/Images/img-subplot.png)
 
-`subplot(2, 2, 1)` will divide the figure into a 2 x 2 matrix. '1' is representing the position where the image 'a' is going to be displayed since there are 4 positions.
+`subplot(2, 2, 1)` will divide the figure into a 2 x 2 matrix. '1' is representing the position where the image 'a' is going to be displayed in the 4 positions.

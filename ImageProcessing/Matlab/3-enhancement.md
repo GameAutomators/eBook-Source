@@ -75,7 +75,7 @@ figure, imshow(out2)
 
 ![rotate MATLAB](/Images/img-fill.png)
 
-#### Removing shapes
+#### Removing small objects
 
 Shapes in an image can be removed by using the following function. The area of the shape less than which have to be eliminated must be mentioned as one of the parameters for the function.
 
