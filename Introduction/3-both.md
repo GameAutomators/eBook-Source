@@ -8,16 +8,16 @@ In this method we will be using the concepts of electronics and image processing
 
 *Fig.The image depicts the connection between the computer, microcontroller and the phone for game automation*
 
-We use a webcam which streams the video of the mobile screen into MATLAB which performs image processing according to our need and generates the duration of touch and sends it to the microcontroller (Arduino here), which is used to simulate the touch on the phone screen using certain circuits.
+We use a webcam which streams the video of the mobile screen into the laptop that performs image processing to extract relevant features, generates the duration of touch and sends it to the microcontroller (Arduino here) which is used to simulate the touch on the phone screen using electronic circuitry.
 
 For example, in the game 'Stick Hero', our webcam will capture the image of the screen and send it to the laptop where we can detect the pillars and the distace between them using image processing. Depending on the distance, we can send the information to the Arduino to simulate a touch for a specified time.
 
 
 ### Advantages of this approach
 
-- This method can be used to solve more complex games like 'Flappy Bird'.
-- Faster than ADB tool.
-- Debugging becomes easier.
+- This method can be used to solve real time games like 'Flappy Bird'.
+- This is faster than adb tool, even though not as fast as just using electornic circuits.
+- Debugging is relatively easier.
 
 ### Disadvantages of this approach
 
@@ -25,4 +25,4 @@ For example, in the game 'Stick Hero', our webcam will capture the image of the 
 - Since external lighting influences the image captured by the webcam, we may have to change the algorithm accordingly each time.
 - Setting the touch part of circuit becomes difficult.
 
-We can enhance the efficiency of this method by using OpenCV instead of MATLAB.
+We can increase the speed of image processing in this method by using libraries such as OpenCV or PIL instead of MATLAB's image processing toolbox.

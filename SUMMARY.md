@@ -3,7 +3,7 @@
 * [Preface](Preface/README.md)
 
 * [Introduction](Introduction/README.md)
-    * [Setting up ADB tool](Introduction/0-adb.md)
+    * [Setting up adb tool](Introduction/0-adb.md)
     * [Using Image Processing](Introduction/1-image.md)
     * [Using Electronics](Introduction/2-electronics.md)
     * [Using Image Processing and Electronics](Introduction/3-both.md)

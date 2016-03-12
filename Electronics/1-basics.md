@@ -8,9 +8,11 @@ Link: https://www.youtube.com/playlist?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs
 
 It starts off by giving you an overview of the basics of the electronic components generally used and teaches you how to work on some cool projects such as infra red sensors and wearable circuits. Watching and practicing the circuits in the first six videos in this series would give you a decent level of understanding to continue reading the sections below. These videos are optional to watch for people who have worked on electronic circuits before.
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endif %}
 
 Next, we explain a simple circuit that is used very commonly while trying to solve mobile games.
 

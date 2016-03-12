@@ -12,9 +12,11 @@ Jeremy Blum's Arduino tutorials on the YouTube are one of the best out there, wa
 
 Link: https://www.youtube.com/playlist?list=PLV009FNOX7Tf-XSyghg2vrSYXw1QcCHaX
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLV009FNOX7Tf-XSyghg2vrSYXw1QcCHaX" frameborder="0" allowfullscreen></iframe>
 </div>
+{% endif %}
 
 ### Hardware
 

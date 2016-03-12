@@ -17,9 +17,7 @@ values = impixel(img);
 
 A new window pops up when the above command is executed where you can click on the object at a specific pixel and the RGB values of that pixel are stored in `values`. You can keep clicking at multiple point in the region of interest so that you have all the values stored in the variable `values`. You can stop choosing by double clicking on one of the pixels.
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-impixel.png)
-</div>
+![rotate MATLAB](/Images/img-impixel.png)
 
 And there you have the pixel values that you need to threshold in the matrix `values`. When you finish selecting pixels, impixel returns a `m x 3` matrix of RGB values in the supplied output argument. You can now look at the data inside `values` and see what are the ranges of red, green and blue intensity values in your image. Initialize the following variables depending on that data: `redMin`, `redMax`, `greenMin`, `greenMax`, `blueMin`, `blueMax`.
 
@@ -50,9 +48,7 @@ subplot(1,3,3), imshow(blue)
 
 The output is shown below.
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-rgb.png)
-</div>
+![rotate MATLAB](/Images/img-rgb.png)
 
 #### Thresholding code in MATLAB
 
@@ -67,8 +63,6 @@ figure, imshow(out)
 
 `out` will be a binary image with required object marked in white and others in black.
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-out.png)
-</div>
+![rotate MATLAB](/Images/img-out.png)
 
 But understand that this code cannot be applied to all images. It can be applied only when the object to be detected is of the different color from the rest. In the image that we are using, direct thresholding was not good enough to detect the block perfectly. We how to do that using image enhancement in the next section.
