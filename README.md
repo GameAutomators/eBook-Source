@@ -1,6 +1,6 @@
 # Building Mobile Game Solvers
 
-<p style="text-align:center;">This book is a unique work in Game Algorithms, Electronics, Image Processing and Machine Learning</p>
+<p style="text-align:center;">This book is a unique way to learn and bolster your interest in the fields of Image Processing, Electronics and Machine Learning.</p>
 
 You can use this video series as an add-on for the book (optional): https://www.youtube.com/playlist?list=PLmcMMZCV897oPkDdoGgwKFspHBPh-bGGn
 
@@ -23,7 +23,7 @@ Written by **Surya Penmetsa** and the following amazing members of the community
 * Shivani Shukla
 * Spandan Pandey
 * Sudheesh Singanamalla
-* Chandra Vamsi S S
+* Chandra S S Vamsi
 * Satya Kesav
 * Sriram Kovela
 * Bharath Kumar
@@ -36,6 +36,13 @@ Written by **Surya Penmetsa** and the following amazing members of the community
 * Milind Sheth
 * Sreetam Das
 
+Sponsors:
+* Srihari Maneru
+* Ramesh Akula
+* Raja Poranki
+* Priyanka Namburi
+* Sathish Visanagiri
+
 Reviewers:
 * Nikhilendra Gudisa
 * Sandeep Nadella
@@ -44,3 +51,4 @@ Reviewers:
 Thanks to:
 * Anand Rajagopalan
 * Ravi Prakash
+* Gopala Krishna

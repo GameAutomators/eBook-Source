@@ -20,9 +20,7 @@ a = imread('input.jpg')
 
 The above command will store an image named 'input.png' into matrix form in the variable 'a'. Here's how the image looks like.
 
-<div class="row" style="text-align:center;">
-	![imcrop MATLAB](/Images/img-input.jpg)
-</div>
+![imcrop MATLAB](/Images/img-input.jpg)
 
 The size of matrix 'a' is decided by the dimensions of the image. Let us assume the size of 'object.png' be 266 x 400, then the matrix 'a' will have 266 rows and 400 columns. If the object is an RGB image, the size of `a` will be `266 x 400 x 3` where 3 represents the layers of red, green and blue. 
 
@@ -40,9 +38,7 @@ imshow(a)
 
 It will display the image stored in variable 'a' in a new window as shown below.
 
-<div class="row" style="text-align:center;">
-	![imshow MATLAB](/Images/img-imshow.png)
-</div>
+![imshow MATLAB](/Images/img-imshow.png)
 
 For displaying the image in a new window, you can use `figure, imshow(b)` where `figure` command create a new empty window where the image can be displayed.
 
@@ -61,9 +57,7 @@ imshow(b) % displaying resulting image
 
 It will crop the image 'a' into a `151 x 151 x 3` image and store it in another variable 'b'. You can use imshow to verify that the operation was performed correctly. The result is shown below.
 
-<div class="row" style="text-align:center;">
-	![imcrop MATLAB](/Images/img-imcrop.png)
-</div>
+![imcrop MATLAB](/Images/img-imcrop.png)
 
 #### imresize
 
@@ -81,10 +75,8 @@ figure, imshow(d)
 ```
 The resulting images are shown below.
 
-<div class="row" style="text-align:center;">
-	![resize1 MATLAB](/Images/img-resize1.png)
-	![resize2 MATLAB](/Images/img-resize2.png)
-</div>
+![resize1 MATLAB](/Images/img-resize1.png)
+![resize2 MATLAB](/Images/img-resize2.png)
 
 #### imrotate
 
@@ -97,9 +89,7 @@ e = imrotate(a, 75);
 imshow(e)
 ```
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-rotate.png)
-</div>
+![rotate MATLAB](/Images/img-rotate.png)
 
 By default, imrotate uses nearest neighbor interpolation, setting the values of pixels in output_image that are outside the rotated image to 0 (zero).
 
@@ -121,8 +111,6 @@ subplot(2, 2, 3), imshow (c)
 subplot(2, 2, 4), imshow (e)
 ```
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-subplot.png)
-</div>
+![rotate MATLAB](/Images/img-subplot.png)
 
 `subplot(2, 2, 1)` will divide the figure into a 2 x 2 matrix. '1' is representing the position where the image 'a' is going to be displayed since there are 4 positions.

@@ -10,15 +10,11 @@ Debugging is the process of stopping the execution of the code at a specific poi
 
 You can click on the margin left to the line numbers in MATLAB to create a breakpoint. The breakpoint is the point where you code stops executing. 
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-debug2.png)
-</div>
+![rotate MATLAB](/Images/img-debug2.png)
 
 You can see various features in MATLAB for debugging once you are at a break point. 
 
-<div class="row" style="text-align:center;">
-	![rotate MATLAB](/Images/img-debug3.png)
-</div>
+![rotate MATLAB](/Images/img-debug3.png)
 
 Let's understand how each of these work now. 
 

@@ -1,6 +1,6 @@
 ## Using Image Processing
 
-In this approach, we use a combination of image processing and adb tool to automate the games. 
+In this approach, we use image processing and adb tool to automate the games. 
 
 ### Approach
 

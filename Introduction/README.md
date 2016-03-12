@@ -4,9 +4,10 @@ The number of mobile devices has increased at a huge rate in the past decade. Th
 
 First let us look at some of the games that we will learn to solve in this book:
 
-* 3D bowling
+* Find the Differences
 * Tic Tac Toe
 * Unblock Me
+* 3D bowling
 * Stick Hero
 * Piano Tiles
 
