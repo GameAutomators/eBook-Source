@@ -52,7 +52,4 @@ Reviewers:
 * Sandeep Nadella
 * Sharan Erukulla
 
-Thanks to:
-* Anand Rajagopalan
-* Ravi Prakash
-* Gopala Krishna
+Web and Book Developer: Sudheesh Singanamalla
