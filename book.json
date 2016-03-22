@@ -1,11 +1,17 @@
 {
-    "plugins": ["ga","youtube","copy-code-button"],
+    "plugins": ["ga","youtube","copy-code-button", "adsense", "multipart"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-74194055-1"
-        }
+        },
+        "adsense": {
+	        "client": "ca-pub-XXXXXXXXXXXXXXXX",
+	        "slot": "XXXXXXXXXX",
+	        "format": "auto",
+	        "element": ".page-inner section"
+      	}
     },
     "pdf": {
-    	"pageNumbers": true
+    	"pageNumbers": true,
     }
 }
