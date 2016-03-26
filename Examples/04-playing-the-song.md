@@ -14,13 +14,13 @@ This is a virtual piano. It consists of an interface with piano keys that resemb
 
 ### Overview
 
-This is a virtual piano. For people who’ve got no or little experience with a live piano can play the same with ease. The notes taken from either a musical site or from a book are stored. Corresponding to these notes swipes are performed on the respective note keys. This thus results in a tune being played virtually.
+This is a virtual piano. For people who’ve got no or little experience with a live piano can play the same with ease. The notes taken from either a musical site or from a book are stored. Corresponding to these notes touches are simulated on the respective note keys. This thus results in a tune being played virtually.
 
 
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the ‘My Piano’ installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the *My Piano* installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable.
 
 ### Block diagram
@@ -28,7 +28,8 @@ This is a virtual piano. For people who’ve got no or little experience with a 
 ![Image](/Images/BlockDiagram.png)
 
 ### Tutorial
-
+ [source code](https://github.com/GameAutomators/Piano-Player)
+ 
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.

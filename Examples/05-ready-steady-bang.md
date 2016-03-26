@@ -43,6 +43,8 @@ As soon as the word 'BANG' appears, the voltage output from the pin where the LD
 
 Here's the step-wise tutorial to automate the game.
 
+[source code](https://github.com/GameAutomators/Bang)
+
 #### Step 1: Sensor placement
 
 The LDR is fixed on the screen exactly where the 'BANG' appears. When the 'BANG' appears, the intensity of the light from the screen being detected by the LDR decreases.

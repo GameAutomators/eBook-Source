@@ -2,7 +2,7 @@
 
 ### Game Description
 
-This is a two-player game. The player and the system get alternative chances to mark their move on the 3x3 grid provided. One who marks 3 linearly oriented squares first, wins the game. If none of the players can do this, the game ends to be a draw. (The system’s move is marked with a circle and the player’s with a cross. )
+This is a two-player game. The player and the system gets alternative chances to mark their move on the 3x3 grid provided. One who marks 3 linearly oriented squares first, wins the game. If none of the players can do this, the game ends to be a draw. (The system’s move is marked with a circle and the player’s with a cross. )
 
 **Playstore Link:** [Tic Tac Toe](https://play.google.com/store/apps/details?id=com.pinkpointer.tictactoe&hl=en)
 
@@ -27,6 +27,8 @@ The player starts at a point. The system’s move is identified using Image proc
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+[source code](https://github.com/GameAutomators/Tic-Tac-Toe/tree/master/Code)
 
 #### Step 1: Using ADB Tool to capture screenshot
 

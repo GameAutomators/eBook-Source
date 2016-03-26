@@ -2,7 +2,7 @@
 
 ### Game Description
 
-The game has two images with ten minute differences separated horizontally. The aim of the player is to find the ten differences and tap on all of them to reach the next level. 
+The game has two images with ten minute differences. The aim of the player is to find the ten differences. 
 
 **Playstore link**: [Find the  Differences](https://play.google.com/store/apps/details?id=com.ivanovandapps.ftdiaa3&hl=en)
 
@@ -19,12 +19,12 @@ You can see a demo video of the working of this game at the following link: http
 
 ### Overview
 
-The image is divided into two parts and the differences are detected by using the image processing. The differences are made significant using an image enhancement and the final ten differences are obtained. Then ADB Tool library is used to simulate the touch on the found differences.
+The image is divided into two parts and the differences are detected by using the processing the image. The differences are then made significant using an image enhancement and the final ten differences are obtained. Then ADB Tool library is used to simulate the touch on the found differences.
 
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the 'Find the Differences' game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the *Find the Differences* game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable
 
 ### Block diagram
@@ -34,6 +34,7 @@ The image is divided into two parts and the differences are detected by using th
 ### Tutorial
 
 Here's the step-wise tutorial to automate the game.
+[source code](https://github.com/GameAutomators/Find-The-Difference)
 
 #### Step 1: Using ADB Tool to capture screenshot
 
