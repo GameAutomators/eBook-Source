@@ -1,4 +1,4 @@
-## Find the differences
+# Find the differences
 
 ### Game Description
 
@@ -43,7 +43,7 @@ The following command instantaneously takes the screenshot of the connected devi
 system('adb shell screencap -p /sdcard/screen.png');
 ```
 
-The following command pulls it from the SD card of the android device into the working system following the path specified
+The following command pulls it from the SD card of the android device into the working system following the path specified.
 
 ```MATLAB
 system('adb pull /sdcard/screen.png');

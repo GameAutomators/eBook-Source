@@ -1,4 +1,4 @@
-## Cars Memory Game
+# Cars Memory Game
 
 ### Game Description
 
@@ -52,6 +52,7 @@ After taking screenshot, we analyse the image using various image processing fun
 ```MATLAB
 board = analyseBoard(input);
 ```
+
 Then, we retrive all the images on back of the tiles by tapping them and storing the image. This code is written inside the function `retriveImage`.
 
 ```MATLAB
@@ -68,6 +69,7 @@ We extract the histograms of each of these images and save them in the variable 
 
 ```MATLAB
 %% Extracting histograms of each image
+
 board.tiles = board.size(1)*board.size(2);
 histTiles = cell(board.tiles,1);
 for a = 1:board.size(1)
@@ -75,18 +77,21 @@ for a = 1:board.size(1)
         histTiles{b+(a-1)*(board.size(1)+1)} = imhist(tiles{a, b}(:,:,1));
     end
 end
+
 ```
 
 We find the similarity of two tiles by finding the sum of differences between the histograms.
 
 ```MATLAB
 %% Finding similarity
+
 differences = 100000*ones(board.tiles);
 for i = 1:board.tiles
     for j = i+1:board.tiles
         differences(i,j) = sum(abs(histTiles{i}(20:240)-histTiles{j}(20:240)));
     end    
 end
+
 ```
 
 The similar position can be found by finding the minimum value of `differences` in each of the rows.

@@ -1,8 +1,8 @@
-## Stick Hero
+# Stick Hero
 
 ### Game Description
 
-In this game,the player need to hold on the screen such that the stick that the man is holding increase its length such that the stick can be used to across the gap between two black pillars.
+In this game, the player need to hold on the screen such that the stick that the man is holding increase its length such that the stick can be used to across the gap between two black pillars.
 
 **Playstore Link:** [Stick Hero](https://play.google.com/store/apps/details?id=com.ketchapp.stickhero&hl=en)
  
@@ -23,7 +23,7 @@ The black pillars are detected using image processing and the distance between t
 - An Android Device with the ‘Stick Hero’ game installed in it.
 - Single Strand Wires, Coins, Relays are used to simulate the touch on the capacitive touch screen of phones and tablets.
 - Arduino is used to control the duration of the touch.
-- Matlab: Used for Image Processing
+- Matlab: Used for Image Processing.
 - Arduino IDE: For programming the Arduino.
 - IP Cam: It is an android app which enables us to use our smartphones cam as a web cam. You can use a webcam directly if you have a good quality webcam available.
 
@@ -41,9 +41,9 @@ Here's the step-wise tutorial to automate the game using approach 3.
 
 #### Step 1: Detecting the black pillars
 
-This is done by using Matlab. The image that is captured from the IP Cam is  processed and the locations of the black pillars are determined. The distance between the black pillars is calculated and the corresponding data is sent to the Arduino through serial communication.
+This is done by using Matlab. The image that is captured from the IP Cam is processed and the locations of the black pillars are determined. The distance between the black pillars is calculated and the corresponding data is sent to the Arduino through serial communication.
 
-The source code for the above processing can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/MATLAB)
+The source code for the above processing can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/MATLAB).
 
 #### Step 2: Determining the duration of the touch
 

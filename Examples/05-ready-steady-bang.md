@@ -1,4 +1,4 @@
-## Ready Steady Bang
+# Ready Steady Bang
 
 ### Game Description
 

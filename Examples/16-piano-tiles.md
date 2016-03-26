@@ -1,4 +1,4 @@
-## Piano Tiles
+# Piano Tiles
 
 ### Game Description
 

@@ -1,4 +1,4 @@
-## FreeFlow
+# FreeFlow
 
 ### Game Description
 
@@ -19,7 +19,7 @@ You can see a demo video of the working of this game at the following link: http
 
 ### Overview
 
-First, using image processing all the colors are recognized with their locations.  Using backtrack algorithm game is solved and the touch is simulated appropriately using adb tool.
+First, using image processing all the colors are recognized with their locations. Using backtrack algorithm game is solved and the touch is simulated appropriately using adb tool.
 
 
 ### Requirements
@@ -44,7 +44,7 @@ The following command instantaneously takes the screenshot of the connected devi
 system(' adb shell screencap -p /sdcard/screen.png ');
 ```       
 
-The following command pulls it from the SD card of the android device into the working system following the path specified
+The following command pulls it from the SD card of the android device into the working system following the path specified.
 
 ```MATLAB
 system(' adb pull /sdcard/screen.png ');
@@ -67,7 +67,7 @@ Further, this grid is converted into a string and passed as an argument to algor
 
 #### Step 3: Algorithm
 
-The algorithm checks all the possible ways using back tracking and tries to solve it under given rules. and solved matrix is returned. The code is written in c++. It takes command line string input and return string output of same length. Here's the code that is used in MATLAB for this purpose.
+The algorithm checks all the possible ways using back tracking and tries to solve it under given rules and solved matrix is returned. The code is written in c++. It takes command line string input and return string output of same length. Here's the code that is used in MATLAB for this purpose.
 
 ```MATLAB
 %  s is input string.
