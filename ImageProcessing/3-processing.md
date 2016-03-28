@@ -6,7 +6,7 @@ Now that you have understood the basics of what an image is, watch the first fiv
 
 Link: https://www.youtube.com/playlist?list=PLmcMMZCV897oO5k7pfz23XkzXnCdcKbvn
 
-{% if output.name == "ebook" %}{% endif %}
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmcMMZCV897oO5k7pfz23XkzXnCdcKbvn" frameborder="0" allowfullscreen></iframe>
 </div>

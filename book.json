@@ -1,5 +1,5 @@
 {
-    "plugins": ["ga"],
+    "plugins": ["ga","youtube","copy-code-button"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-74194055-1"
