@@ -1,4 +1,4 @@
-## Ready Steady Bang
+# Ready Steady Bang
 
 ### Game Description
 
@@ -42,6 +42,8 @@ As soon as the word 'BANG' appears, the voltage output from the pin where the LD
 ### Tutorial
 
 Here's the step-wise tutorial to automate the game.
+
+[source code](https://github.com/GameAutomators/Bang)
 
 #### Step 1: Sensor placement
 
