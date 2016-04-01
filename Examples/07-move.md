@@ -17,7 +17,7 @@ Using image processing the position of the dots,blocks and the squares is identi
 ### Requirements
 
 * Computer with MATLAB, ADB Tool and required drivers set up.
-* An Android Device with the ‘My Piano’ installed on it. (Turn on the Developer options for better visualization)
+* An Android Device with the ‘Move’ installed on it. (Turn on the Developer options for better visualization)
 * USB data transfer cable.
 
 ### blockdiagram

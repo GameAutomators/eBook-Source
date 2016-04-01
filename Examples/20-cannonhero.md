@@ -20,7 +20,7 @@ The position of the evil trooper is identified by using Image processing. The al
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the ‘Sudoku’ game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the ‘CannonHero’ game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable.
 
 ### Block Diagram
