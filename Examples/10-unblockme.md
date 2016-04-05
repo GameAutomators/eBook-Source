@@ -24,7 +24,7 @@ First, using image processing all the blocks alignment and position is detected 
 ### Requirements
 
 - Computer with MATLAB, ADB Tool and required drivers set up.
-- An Android Device with the ‘Sudoku’ game installed on it. (Turn on the Developer options for better visualization)
+- An Android Device with the ‘Unblockme’ game installed on it. (Turn on the Developer options for better visualization)
 - USB data transfer cable.
 
 ### Block Diagram
