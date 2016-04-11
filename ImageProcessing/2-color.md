@@ -47,8 +47,10 @@ This is a 24-bit image, i.e., 8 bits in red, 8 bits in green and 8 bits in blue.
 
 ##### RGB Image Matrix
 
-By using the above concept, any image can be represented as a combination of three layers- read, green and blue. This is depicted in the image below.
+By using the above concept, any color can be represented as a combination of three colors- read, green and blue. Similarly, any image can be represented as combination of three layers. This is depicted in the image below. 
 
 ![ColorImage](/Images/rgb_example.png)
 
 *Fig. The three color layers of the image are shown on the right in grayscale form*
+
+If these images are stored in a matirx, the size with be `200 x 150 x 3` where 3 represents the three layers.

@@ -35,9 +35,7 @@ It's observed that a swipe across the center of the screen is the best way to dr
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
-
-[source code](https://github.com/GameAutomators/3D-Bowling)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/3D-Bowling).
 
 #### Step 1: Using ADB Tool to capture screenshot
 
@@ -60,7 +58,8 @@ The pulled image is stored in the form of a matrix of pixel values by the MATLAB
 The pulled image is read and the two sets of coordinates are chosen such that they lie on the vertical axis that passes through the centre of the screen.
  
 ```MATLAB
-  imread('screen.png');
+a =  imread('screen.png');
+imshow(a)
 ```
 
 #### Step 3: Swipe across the screen
