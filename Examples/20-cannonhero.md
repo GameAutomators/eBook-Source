@@ -1,4 +1,4 @@
-# Cannon Hero
+## Cannon Hero
 
 ### Game Description
 
@@ -28,6 +28,8 @@ The position of the evil trooper is identified by using Image processing. The al
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/canon-hero).
 
 #### Step 1: Using ADB Tool to capture screenshot
 
@@ -60,7 +62,4 @@ The long press event is simulated for the appropriate time calculated by the alg
 
 ```MATLAB
 system(' adb shell input swipe <x1> <y1> <x2> <y2> [duration(ms)] ');
-```               
-
-
-
+```

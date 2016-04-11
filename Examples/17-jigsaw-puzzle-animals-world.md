@@ -1,4 +1,4 @@
-# Animals World Jigsaw Puzzle
+## Animals World Jigsaw Puzzle
 
 ### Game Description
 
@@ -28,6 +28,8 @@ First we divide the image into n X n parts and store each part in matrices namel
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Piano-Tiles).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
@@ -48,7 +50,7 @@ Then image is cropped into number of parts like a1,a2,a3...an, depending upon th
 
 #### Step 2: Comparison of each subparts
 
-A loop is run to take the snapshot of jumbled image and it is divided into same number of parts like b1,b2,b3...bn. Then each ak where 1<k<=n is compared with all the bjs ge , whenever there is similarity its index is stored in the variable id.
+A loop is run to take the snapshot of jumbled image and it is divided into same number of parts like b1,b2,b3...bn. Then each ak where `1<k<=n` is compared with all the bjs ge , whenever there is similarity its index is stored in the variable id.
 
 #### Step 3:Moving each part to appropriate position
 

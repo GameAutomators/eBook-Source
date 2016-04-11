@@ -4,6 +4,10 @@
 
 This is a single player game. The goal is to unblock the red block out of the board by sliding the other blocks out of the way, unblock it with the minimal moves.
 
+{% if output.name == "ebook" %}
+![UnblockmeGIF](/Images/unblockme.gif)
+{% endif %}
+
 **Playstore Link:** [Unblockme](https://play.google.com/store/apps/details?id=com.kiragames.unblockmefree)
 
 ![Playstore](/Images/playstore_unblockme.png) 
@@ -13,9 +17,11 @@ This is a single player game. The goal is to unblock the red block out of the bo
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/_-aNdgeLc5w
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_-aNdgeLc5w" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 
@@ -33,7 +39,7 @@ First, using image processing all the blocks alignment and position is detected 
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/UnblockMe-Game).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

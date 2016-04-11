@@ -1,4 +1,4 @@
-# Move: A Brain Shifting Puzzle
+## Move: A Brain Shifting Puzzle
 
 ### Game Description
 
@@ -26,6 +26,8 @@ Using image processing the position of the dots,blocks and the squares is identi
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/move).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
@@ -47,9 +49,11 @@ imread('screen.png')
 ```
 
 #### Step 2: Image processing
+
 Once the screenshot is obtained, the position of the dots, blocks and the squares is identifies and also the minimum number of moves required to solve the level is extracted. For conenience each color is assigned an integer. This information is then fed to the algorithm with finds the solution.
 
 #### Step 3: Algorithm
+
 The algorithm tries out all permutations and combination of moves possible to get to the right one.
 
 #### Step 4: Using ADB Tool to simulate touch

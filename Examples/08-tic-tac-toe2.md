@@ -1,4 +1,4 @@
-# Tic Tac Toe  - Automated
+## Tic Tac Toe  - Automated
 
 ### Game Description
 
@@ -28,6 +28,8 @@ The player starts at random cell. The system’s move is identified using Image 
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/TicTacToe-v2).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

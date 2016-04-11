@@ -1,4 +1,4 @@
-# Rainbow Tiles
+## Rainbow Tiles
 
 ### Game Description
 
@@ -29,6 +29,8 @@ The position of the tiles is identified by using Image processing, further move 
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/rainbow-tiles).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

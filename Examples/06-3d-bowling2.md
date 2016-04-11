@@ -1,4 +1,4 @@
-# Bowling 3D-2
+## Bowling 3D-2
 
 ### Game Description
 
@@ -12,6 +12,7 @@ Number of players in this game may vary from one to four. In case of multiplayer
 **Difficulty level:** Moderate
 
 ### Overview
+
 We find the centroid of the target, and then align the ball along the centroid, then we swipe it straight across the screen.
 
 #### Requirements
@@ -24,6 +25,8 @@ We find the centroid of the target, and then align the ball along the centroid, 
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/3D-Bowling2).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

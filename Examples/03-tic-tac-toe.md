@@ -1,4 +1,4 @@
-# Tic Tac Toe
+## Tic Tac Toe
 
 ### Game Description
 
@@ -28,7 +28,7 @@ The player starts at a point. The system’s move is identified using Image proc
 
 ### Tutorial
 
-[source code](https://github.com/GameAutomators/Tic-Tac-Toe/tree/master/Code)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Tic-Tac-Toe).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

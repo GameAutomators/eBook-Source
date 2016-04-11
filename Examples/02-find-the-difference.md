@@ -1,4 +1,4 @@
-# Find the differences
+## Find the differences
 
 ### Game Description
 
@@ -13,9 +13,11 @@ The game has two images with ten minute differences. The aim of the player is to
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/vOTyJVKrqfk
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vOTyJVKrqfk" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 
@@ -33,8 +35,7 @@ The image is divided into two parts and the differences are detected by using th
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
-[source code](https://github.com/GameAutomators/Find-The-Difference)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Find-The-Difference).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

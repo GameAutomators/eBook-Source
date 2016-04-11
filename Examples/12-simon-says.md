@@ -1,4 +1,4 @@
-# Simon Says
+## Simon Says
 
 ### Game Description
 
@@ -33,6 +33,9 @@ Since the sequence in which the color blocks light up is stored in an array, the
 ![image](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/simon-says).
+
 
 #### Step 1: Detecting the Sequence
 

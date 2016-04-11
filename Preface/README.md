@@ -42,21 +42,19 @@ This book **Building Mobile Game Solvers** is a result of our work. I hope you l
 
 We are open sourcing this book so that it can get better in quality by contributors across the world. We invite you, the reader, to be a contributor to the book to have more projects. The details on how to contribute are at the end of the book.
 
-### Scope
+### Bolters Interest towards AI
 
-Artificial Intelligence has been one of the fastest growing fields in the recent past. This book could also bolster the interest of the readers towards the field of Artificial Intelligence. 
-
-Once people learn building machines for game playing, they can expand into other areas in AI such as- natural language processing, robotics, computer vision, stock trading, medical diagnosis, etc.
+Artificial Intelligence (AI) has been one of the fastest growing fields in the recent past. The book can also bolster the interest of the readers in this field. Once people learn building machines for game playing, they can expand into other areas in AI such as- natural language processing, robotics, computer vision, stock trading, medical diagnosis, etc.
 
 ### Prerequisites
 
-So what should you know in order to get started? This book has been carefully designed to help readers with or without experience in electronics and image processing.
+So what should you know in order to get started? This book has been carefully designed to help readers with or without experience in electronics and image processing. However, prior programming experience is recommended.
 
 We covered concepts that are only relevant to solving mobile games in this book. In case you want to learn more, we have provided links at relevant places so that you can learn more. 
 
 ### Note
 
-This book can be used to learn how fun electronics, image processing and machine learning are, but it cannot be independently used as a guide for any of these areas.
+This book can be used to learn how fun electronics, image processing and machine learning are, but it cannot be independently used as a guide for any of these areas. If you are interested to learn more in these fields, you can take a course. 
 
 ### What this book covers
 

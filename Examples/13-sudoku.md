@@ -1,4 +1,4 @@
-# Sudoku
+## Sudoku
 
 ### Game Description
 
@@ -39,6 +39,8 @@ First, using Image Processing all the numbers are recognized with their location
 ![BlockDiagram](/Images/BlockDiagram.png)
 
 ### Tutorial
+
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Sudoku-Game).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

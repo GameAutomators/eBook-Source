@@ -1,4 +1,4 @@
-# Ready Steady Bang
+## Ready Steady Bang
 
 ### Game Description
 
@@ -17,9 +17,11 @@ The game has two players, one is system and the other is player controlled. Both
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/riNjidXmOY4
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/riNjidXmOY4" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 
@@ -41,9 +43,7 @@ As soon as the word 'BANG' appears, the voltage output from the pin where the LD
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
-
-[source code](https://github.com/GameAutomators/Bang)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Bang).
 
 #### Step 1: Sensor placement
 
