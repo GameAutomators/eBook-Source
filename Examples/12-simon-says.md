@@ -34,6 +34,9 @@ Since the sequence in which the color blocks light up is stored in an array, the
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/simon-says).
+
+
 #### Step 1: Detecting the Sequence
 
 The sequence is detected with the help of the Arduino, by first setting a threshold for all the four LDRS. These are then mounted on top of the Touchscreen correspoding to the color: `Blue`, `Green`, `Yellow` and `Red`. 

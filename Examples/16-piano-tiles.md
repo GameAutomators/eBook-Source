@@ -36,7 +36,7 @@ The color of the tile is sensed as black or white using LDR, and touch is simula
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Piano-Tiles).
 
 #### Step 1: Sensor placement
 

@@ -34,7 +34,7 @@ First, using image processing all the colors are recognized with their locations
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here]().
 
 #### Step 1: Using ADB Tool to capture screenshot
 

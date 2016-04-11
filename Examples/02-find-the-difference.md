@@ -33,8 +33,7 @@ The image is divided into two parts and the differences are detected by using th
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
-[source code](https://github.com/GameAutomators/Find-The-Difference)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Find-The-Difference).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

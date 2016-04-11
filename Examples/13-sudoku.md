@@ -40,6 +40,8 @@ First, using Image Processing all the numbers are recognized with their location
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Sudoku-Game).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.

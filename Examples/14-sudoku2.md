@@ -29,6 +29,8 @@ NOTE: The world’s most difficult Sudoku has also been solved using this automa
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/simon-says).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.

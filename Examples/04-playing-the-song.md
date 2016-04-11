@@ -28,7 +28,7 @@ This is a virtual piano. For people who’ve got no or little experience with a 
 ![Image](/Images/BlockDiagram.png)
 
 ### Tutorial
- [source code](https://github.com/GameAutomators/Piano-Player)
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Piano-Player).
  
 #### Step 1: Using ADB Tool to capture screenshot
 

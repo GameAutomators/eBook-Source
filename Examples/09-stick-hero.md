@@ -37,7 +37,7 @@ The black pillars are detected using image processing and the distance between t
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game using approach 3.
+Here's the step-wise tutorial to automate the game using approach 3. The source code is avaiable [here](https://github.com/GameAutomators/StickHero).
 
 #### Step 1: Detecting the black pillars
 

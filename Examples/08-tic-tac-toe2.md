@@ -29,6 +29,8 @@ The player starts at random cell. The system’s move is identified using Image 
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/TicTacToe-v2).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.

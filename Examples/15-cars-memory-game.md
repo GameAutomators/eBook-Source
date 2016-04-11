@@ -27,7 +27,7 @@ First, we flip all the tiles and save all the images in a cell in MATLAB. Then w
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/cars-memory-game).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

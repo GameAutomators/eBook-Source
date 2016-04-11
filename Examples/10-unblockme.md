@@ -33,7 +33,7 @@ First, using image processing all the blocks alignment and position is detected 
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game.
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/UnblockMe-Game).
 
 #### Step 1: Using ADB Tool to capture screenshot
 

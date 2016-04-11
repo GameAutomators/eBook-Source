@@ -28,6 +28,8 @@ First we divide the image into n X n parts and store each part in matrices namel
 
 ### Tutorial
 
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Piano-Tiles).
+
 #### Step 1: Using ADB Tool to capture screenshot
 
 The following command instantaneously takes the screenshot of the connected device and stores it in the SD card following the specified path.
