@@ -51,17 +51,19 @@ It is also possible to use adb tool over WiFi. For more information on how to do
 
 Here are some commands that can be used with adb tool.
 
-To pull the image into working directory.
+To take a screenshot of the device connected and store it on the sd card with the name `screen.png`.
 
 ```
-adb pull 
+adb shell screencap -p /sdcard/screen.png
 ```
 
-To take a screenshot of the device connected.
+To copy the image stored previously on the sdcard on your computer's working directory.
 
 ```
-adb shell screencap 
+adb pull /sdcard/screen.png
 ```
+
+
 
 To tap on the screen at coordinates (x,y).
 
@@ -78,7 +80,9 @@ adb shell input swipe x1 y1 x2 y2 w
 To remove screenshot that has been stored.
 
 ```
-adb shell rm 
+adb shell rm -f /sdcard/test.txt
 ```
 
 That's all you need to know about adb tool. Next, let us cover each of the approaches in detail.
+
+Remember, adb tool can only be used for Android phones. Instruments can be used to accomplish the same tasks that adb tool does in iOS.

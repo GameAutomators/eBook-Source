@@ -1,6 +1,6 @@
 # Building Mobile Game Solvers
 
-<p style="text-align:center;">This book is a unique way to learn and bolster your interest in the fields of Image Processing, Electronics and Machine Learning.</p>
+<p style="text-align:center;">This book will help you learn concepts of algorithms, electronics, image processing and machine learning; and have a lot of fun at the same time.</p>
 
 You can use this video series as an add-on for the book (optional): https://www.youtube.com/playlist?list=PLmcMMZCV897oPkDdoGgwKFspHBPh-bGGn
 
@@ -10,38 +10,18 @@ You can use this video series as an add-on for the book (optional): https://www.
 
 <hr>
 
-Written by **Surya Penmetsa** and the following amazing members of the community.
+Written by **Surya Penmetsa** with the help of the following amazing members of the community.
 
-* Aarti Barai
-* Aman Bhargava
-* Aroma Rodrigues
-* Devendra Patil
-* Karthik Shathiri
-* Monica Tiyyagura
-* Naveen Indala
-* Nisha Jacob
-* Nishi
-* Piyush Agarwal
-* Piyush Kashyap
-* Satya Sree
-* Shivani Shukla
-* Spandan Pandey
 * Sudheesh Singanamalla
 * Chandra S S Vamsi
-* Satya Kesav
-* Sriram Kovela
-* Bharath Kumar
-* Vinay Kant
+* Nishi
+* Piyush Kashyap
+* Karthik Shathiri
 * Rajmani Arya
-* Milan Chatterjee
-* Chetan Rathore
-* Surendra Gurjar
-* Anirudh Deshpande
-* Milind Sheth
-* Sreetam Das
+* Naveen Indala
+* Piyush Agarwal
 
-Sponsors:
-* Srihari Maneru
+We'd like to thank the following mighty people have assisted us in making all the work we do open source and free.
 * Ramesh Akula
 * Raja Poranki
 * Priyanka Namburi
@@ -53,3 +33,5 @@ Reviewers:
 * Sharan Erukulla
 
 Web and Book Developer: Sudheesh Singanamalla
+
+We'd also like to thanks the other contributors: Aarti Barai, Sriram Kovela, Bharath Kumar, Vinay Kant, Aman Bhargava, Nisha Jacob, Satya Kesav, Anirudh Deshpande, Milind Sheth, Sreetam Das, Milan Chatterjee, Chetan Rathore, Surendra Gurjar, Shubhi Saxena, Devendra Patil, Shivani Shukla, Spandan Pandey, Aroma Rodrigues.

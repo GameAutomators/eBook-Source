@@ -19,7 +19,6 @@ We can run the above steps in a loop to automate a game that needs repetition or
 - Complex algorithms can be implemented easily in case you are using MATLAB.
 - Everything happening on the screen is visible to us unlike in the case of electronic circuits where the screen could be covered with the sensors or touch simulation circuitry.
 
-
 ### Disadvantages of this approach
 
 - The transfer of the screenshots to laptop, and simulating the touch takes about half a second. This is very slow if we are working on real time games that need quick response.
