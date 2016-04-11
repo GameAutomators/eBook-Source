@@ -41,7 +41,7 @@ As soon as the word 'BANG' appears, the voltage output from the pin where the LD
 
 ### Tutorial
 
-Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/3D-Bowling2).
+Here's the step-wise tutorial to automate the game. The source code is avaiable [here](https://github.com/GameAutomators/Bang).
 
 #### Step 1: Sensor placement
 

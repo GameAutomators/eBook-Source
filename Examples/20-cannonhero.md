@@ -62,7 +62,4 @@ The long press event is simulated for the appropriate time calculated by the alg
 
 ```MATLAB
 system(' adb shell input swipe <x1> <y1> <x2> <y2> [duration(ms)] ');
-```               
-
-
-
+```
