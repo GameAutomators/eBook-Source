@@ -8,7 +8,7 @@ In this approach, we use image processing and adb tool to automate the games.
 
 *Fig: The image depicts the block diagram of the approach using adb tool and image processing for solving the games*
 
-We use adb tool to take a screenshot of the phone screen and send over the image to the computer. Next, we use a set of image processing techniques to extract relevant features in the image. Depending on the features, we can simuate the touch or swipe virtually on the phone using adb tool. 
+We use adb tool to take a screenshot of the phone screen and send over to the computer. Next, we use a set of image processing techniques to extract relevant features in the image. Depending on the features, we decide the appropriate action (touch or swipe) that must be taken and do that virtually using adb commands. 
 
 We can run the above steps in a loop to automate a game that needs repetition or has multiple levels.
 
