@@ -1,4 +1,4 @@
-# Stick Hero
+## Stick Hero
 
 ### Game Description
 
@@ -10,9 +10,11 @@ In this game, the player need to hold on the screen such that the stick that the
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/Na2GrGcEe9Q
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Na2GrGcEe9Q" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 

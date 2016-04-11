@@ -1,8 +1,12 @@
-# FreeFlow
+## FreeFlow
 
 ### Game Description
 
 This is a single player game. The player has to connect the similar colors in such a way that path of two colors don't intersect.
+
+{% if output.name == "ebook" %}
+![UnblockmeGIF](/Images/freeflow.gif)
+{% endif %}
 
 **Playstore Link:** [FlowFree](https://play.google.com/store/apps/details?id=com.bigduckgames.flow)
 
@@ -13,9 +17,11 @@ This is a single player game. The player has to connect the similar colors in su
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/kfxZCnNZfTU
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kfxZCnNZfTU" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 

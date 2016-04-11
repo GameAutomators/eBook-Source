@@ -1,8 +1,13 @@
-# Piano Tiles
+## Piano Tiles
 
 ### Game Description
 
 The game has tiles falling from the top of the screen. The player is expected to tap of the tiles (which are black in color) as quickly as possible without missing any.
+
+{% if output.name == "ebook" %}
+![PianoTilesGIF](/Images/piano-tiles.gif)
+{% endif %}
+
 
 **Playstore Link:** [Piano Tiles](https://play.google.com/store/apps/details?id=com.umonistudio.tile&hl=en)
 
@@ -12,9 +17,11 @@ The game has tiles falling from the top of the screen. The player is expected to
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/TQtS-OKW5Yo
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TQtS-OKW5Yo" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 

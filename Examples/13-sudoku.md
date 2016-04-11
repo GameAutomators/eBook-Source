@@ -1,4 +1,4 @@
-# Sudoku
+## Sudoku
 
 ### Game Description
 

@@ -1,4 +1,4 @@
-# Cannon Hero
+## Cannon Hero
 
 ### Game Description
 

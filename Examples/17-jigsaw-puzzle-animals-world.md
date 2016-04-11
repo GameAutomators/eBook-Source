@@ -1,4 +1,4 @@
-# Animals World Jigsaw Puzzle
+## Animals World Jigsaw Puzzle
 
 ### Game Description
 
@@ -50,7 +50,7 @@ Then image is cropped into number of parts like a1,a2,a3...an, depending upon th
 
 #### Step 2: Comparison of each subparts
 
-A loop is run to take the snapshot of jumbled image and it is divided into same number of parts like b1,b2,b3...bn. Then each ak where 1<k<=n is compared with all the bjs ge , whenever there is similarity its index is stored in the variable id.
+A loop is run to take the snapshot of jumbled image and it is divided into same number of parts like b1,b2,b3...bn. Then each ak where `1<k<=n` is compared with all the bjs ge , whenever there is similarity its index is stored in the variable id.
 
 #### Step 3:Moving each part to appropriate position
 

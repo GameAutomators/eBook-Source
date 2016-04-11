@@ -1,4 +1,4 @@
-# Tic Tac Toe  - Automated
+## Tic Tac Toe  - Automated
 
 ### Game Description
 

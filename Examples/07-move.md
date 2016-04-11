@@ -1,4 +1,4 @@
-# Move: A Brain Shifting Puzzle
+## Move: A Brain Shifting Puzzle
 
 ### Game Description
 

@@ -1,4 +1,4 @@
-# Rainbow Tiles
+## Rainbow Tiles
 
 ### Game Description
 

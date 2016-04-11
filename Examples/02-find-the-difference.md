@@ -1,4 +1,4 @@
-# Find the differences
+## Find the differences
 
 ### Game Description
 
@@ -13,9 +13,11 @@ The game has two images with ten minute differences. The aim of the player is to
 
 You can see a demo video of the working of this game at the following link: https://youtu.be/vOTyJVKrqfk
 
+{% if output.name == "ebook" %}
 <div class="row" style="text-align:center;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vOTyJVKrqfk" frameborder="0" allowfullscreen></iframe>
 </div> 
+{% endif %}
 
 ### Overview
 

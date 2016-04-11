@@ -1,4 +1,4 @@
-# 3D  Bowling
+## 3D  Bowling
 
 ### Game Description
 

@@ -1,4 +1,4 @@
-# Playing the song
+## Playing the song
 
 ### Game Description
 
