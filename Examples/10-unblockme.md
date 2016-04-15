@@ -1,4 +1,4 @@
-# Unblockme
+## Unblockme
 
 ### Game Description
 
@@ -87,14 +87,14 @@ end
 The algorithm uses a simple breadth first search to find a particular order of moves to free the red block.
 
 ```
-	Enqueue the current board
-	while Q not empty:
-    	Dequeue a board and examine it
-    	can block escape?
-        	he can! Ok
-    	he cant?
-        	for each possible board that can arise out of this one
-            	add board to END of Q
+Enqueue the current board
+while Q not empty:
+	Dequeue a board and examine it
+	can block escape?
+    	he can! Ok
+	he cant?
+    	for each possible board that can arise out of this one
+        	add board to END of Q
 ```
 
 The code is written in C++. It takes command line string input and return string have order of moves. Using following commands in matlab we can run C++ program.

@@ -45,19 +45,13 @@ Here's the step-wise tutorial to automate the game using approach 3. The source 
 
 This is done by using Matlab. The image that is captured from the IP Cam is processed and the locations of the black pillars are determined. The distance between the black pillars is calculated and the corresponding data is sent to the Arduino through serial communication.
 
-The source code for the above processing can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/MATLAB).
-
 #### Step 2: Determining the duration of the touch
 
 Based on the data arrived from Matlab, the duration of the touch is adjusted such that the stick exactly falls on the adjacent pillar.
 
-The source code for the arduino can be found [here](https://github.com/psurya1994/arduino-plays-stick-hero/tree/master/Code/Arduino)
-
 #### Step 3: Simulating Touch
 
 Relays are directly connected to the output pin of the Arduino. It is equivalent to a touch if the voltage given is high as there is a path for the current to flow to the ground. It is equivalent to not touching if the voltage given is low.
-
-Run the [test_relay code](https://github.com/psurya1994/arduino-plays-piano-tiles/blob/master/Code/test_touch/test_touch.ino) at this link to see if the electronic touch is simulated properly.
 
 ### Conclusions
 

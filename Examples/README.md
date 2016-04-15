@@ -1,4 +1,4 @@
-# Specific Examples
+# Solving Games
 
 In this chapter, we cover specific examples of the concepts that we have learned earlier in this book. The chapter is split into sections depending on the approach that is used to solve the games. 
 
