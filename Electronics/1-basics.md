@@ -2,7 +2,7 @@
 
 Electronics deals with the use of circuits that involve various electrical components. Everything from the clock you see to find time to the smartphone in your hand connecting you to your friends every second are the applications of it. In this section, we will give a brief overview of the electronics that we need to get started with working on the book.
 
-If you are a beginner, my video series on YouTube is a great way to start- "Building Electronic Circuits" 
+If you are a beginner, this video series on YouTube is a great way to start- "Building Electronic Circuits" 
 
 Link: https://www.youtube.com/playlist?list=PLmcMMZCV897om7Wuqz882Jdp9lGj9HYHs 
 

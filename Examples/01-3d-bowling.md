@@ -53,7 +53,7 @@ system('adb pull /sdcard/screen.png');
   
 The pulled image is stored in the form of a matrix of pixel values by the MATLAB.
 
-### Step 2: Processing the image
+#### Step 2: Processing the image
 
 The pulled image is read and the two sets of coordinates are chosen such that they lie on the vertical axis that passes through the centre of the screen.
  

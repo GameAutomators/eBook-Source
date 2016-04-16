@@ -10,12 +10,11 @@ You can use this video series as an add-on for the book (optional): https://www.
 
 <hr>
 
-Written by **Surya Penmetsa** with the help of the following amazing members of the community.
-
-* Sudheesh Singanamalla
+Written by **Surya Penmetsa** and **Sudheesh Singanamalla** with the help of the following amazing members of the community.
+ 
+* Piyush Kashyap
 * Chandra S S Vamsi
 * Nishi
-* Piyush Kashyap
 * Karthik Shathiri
 * Rajmani Arya
 * Naveen Indala

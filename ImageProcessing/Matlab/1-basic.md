@@ -85,13 +85,13 @@ This command can be used to rotate the image by given angle (in degrees) in a co
 `variable_name = imrotate(image, degrees)`
 
 ```MATLAB
-e = imrotate(a, 75);
+e = imrotate(a, 15); % rotate 15 degree in clockwise
 imshow(e)
 ```
 
 ![rotate MATLAB](/Images/img-rotate.png)
 
-By default, imrotate uses nearest neighbor interpolation, setting the values of pixels in output_image that are outside the rotated image to 0 (zero).
+By default, imrotate uses nearest neighbor interpolation, setting the values of pixels in output image that are outside the rotated image to 0 (zero).
 
 
 #### subplot

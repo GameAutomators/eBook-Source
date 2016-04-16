@@ -42,7 +42,7 @@ This book **Building Mobile Game Solvers** is a result of our work. I hope you l
 
 We are open sourcing this book so that it can get better in quality by contributors across the world. We invite you, the reader, to be a contributor to the book to have more projects. The details on how to contribute are at the end of the book.
 
-### Bolters Interest towards AI
+### Bolsters Interest towards AI
 
 Artificial Intelligence (AI) has been one of the fastest growing fields in the recent past. The book can also bolster the interest of the readers in this field. Once people learn building machines for game playing, they can expand into other areas in AI such as- natural language processing, robotics, computer vision, stock trading, medical diagnosis, etc.
 
@@ -100,7 +100,3 @@ You can find the color images that have been used in the book at the following l
 ### Reader feeback
 
 We are always looking to improve the quality of the book. The feedback from the readers of our book is extremely important for us. Let us know what you think about the book by shooting an email to p.surya1994@gmail.com with the subject **Reader Feedback: Game Automators**. We promise to read each and every one of your emails.
-
-### Questions
-
-If you find any mistake in the book text or the code- we would be grateful if you could report this. You can contact us at p.surya1994@gmail.com if you are facing any issues with the book, and we will try our best to address it. 

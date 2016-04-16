@@ -21,7 +21,7 @@ For example, in the game 'Stick Hero', our webcam will capture the image of the 
 
 ### Disadvantages of this approach
 
-- Complex circuits are required.
+- Complicated.
 - Since external lighting influences the image captured by the webcam, we may have to change the algorithm accordingly each time.
 - Setting the touch part of circuit becomes difficult.
 

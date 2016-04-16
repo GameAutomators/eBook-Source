@@ -24,11 +24,11 @@
     * [Sensors](Electronics/3-sensors.md)
     * [Simulation](Electronics/4-simulation.md)
 
-* [Example Games](Examples/README.md)
+* [Solving Games](Examples/README.md)
     * [Using Image Processing](Examples/image.md)
         * [3D Bowling](Examples/01-3d-bowling.md)
         * [Tic Tac Toe](Examples/08-tic-tac-toe2.md)
-        * [Find The Difference](Examples/03-find-the-difference.md)
+        * [Find The Difference](Examples/02-find-the-difference.md)
         * [Flow free](Examples/11-flow-free.md)
         * [Unblock Me](Examples/10-unblockme.md)
     * [Using Electronics](Examples/electronics.md)
