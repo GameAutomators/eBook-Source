@@ -1,8 +1,11 @@
 {
-    "plugins": ["ga","youtube","copy-code-button", "multipart"],
+    "plugins": ["ga","youtube","copy-code-button", "multipart", "mathjax"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-74194055-1"
+        },
+        "mathjax":{
+            "forceSVG": true
         }
     },
     "pdf": {

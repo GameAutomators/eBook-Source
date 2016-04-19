@@ -89,6 +89,11 @@ a = imread('input.jpg');
 imshow(a);
 ```
 
+Mathematics formulas are denoted this way.
+{% math %}(ax^2 + bx + c = 0){% endmath %}
+
+{% math %}x = {-b \pm \sqrt{b^2-4ac} \over 2a}.{% endmath %}
+
 ### Downloading the codes used in the book
 
 All the codes that have been used in the book can be found at this link: https://github.com/GameAutomators
